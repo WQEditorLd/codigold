@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidia/!svn/ver/150/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model
+END
+ActivitiesModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/81/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/ActivitiesModel.java
+END
+RolesModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tidia/!svn/ver/81/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/RolesModel.java
+END
+ComponentsModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tidia/!svn/ver/140/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/ComponentsModel.java
+END
+ManifestModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tidia/!svn/ver/141/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/ManifestModel.java
+END
+EnvironmentsModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tidia/!svn/ver/100/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/EnvironmentsModel.java
+END
+LearningDesignModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tidia/!svn/ver/150/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/model/LearningDesignModel.java
+END

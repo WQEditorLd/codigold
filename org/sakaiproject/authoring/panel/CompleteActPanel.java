@@ -1,0 +1,171 @@
+package org.sakaiproject.authoring.panel;
+
+import java.awt.Color;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.xml.datatype.DatatypeFactory;
+
+import org.imsglobal.jaxb.ld.CompleteAct;
+import org.imsglobal.jaxb.ld.RolePart;
+import org.imsglobal.jaxb.ld.TimeLimit;
+import org.imsglobal.jaxb.ld.WhenRolePartCompleted;
+import org.sakaiproject.authoring.table.RolePartSelectionModel;
+import org.sakaiproject.authoring.utils.Bundle;
+
+import com.jgoodies.forms.builder.PanelBuilder;
+import com.jgoodies.forms.layout.CellConstraints;
+import com.jgoodies.forms.layout.FormLayout;
+
+public class CompleteActPanel extends JPanel {
+
+	private static final long serialVersionUID = 4912300458634612305L;
+	
+	private CompleteAct completeAct = new CompleteAct();
+	
+	private TextField durationField = new TextField();
+	
+	private JRadioButton noneButton = new JRadioButton(Bundle.getString("button.none"), true);
+	private JRadioButton rolePartButton = new JRadioButton(Bundle.getString("button.rolepart"));
+	private JRadioButton timeLimitButton = new JRadioButton(Bundle.getString("button.timelimit"));
+	private ButtonGroup buttonGroup = new ButtonGroup();
+	
+	private JTable rolePartsTable;
+	private RolePartSelectionModel rolePartsModel;
+	
+	public CompleteAct getCompleteAct() {
+		
+		completeAct.getWhenRolePartCompletedList().clear();
+		completeAct.setTimeLimit(null);
+		
+		if(noneButton.isSelected()){
+			return null;
+		}
+		
+		if(rolePartButton.isSelected()){
+			completeAct.getWhenRolePartCompletedList().addAll(getWhenRolePartsCompleted());
+			return completeAct;
+		}
+		
+		try{
+			if(timeLimitButton.isSelected()){
+				TimeLimit timeLimit = new TimeLimit();
+				timeLimit.setValue(DatatypeFactory.newInstance().newDuration(durationField.getText().toUpperCase()));
+				completeAct.setTimeLimit(timeLimit);
+			}
+		} catch (Exception e){
+			e.printStackTrace();
+		}
+		
+		
+		return completeAct;
+	}
+
+	private List<WhenRolePartCompleted> getWhenRolePartsCompleted() {
+		List<RolePart> roleParts = rolePartsModel.getObjectsSelected();
+		
+		List<WhenRolePartCompleted> rolePartCompletedList = new ArrayList<WhenRolePartCompleted>();
+		
+		for(RolePart rolePart : roleParts){
+			WhenRolePartCompleted completed = new WhenRolePartCompleted();
+			completed.setRef(rolePart);
+			rolePartCompletedList.add(completed);
+		}
+		
+		return rolePartCompletedList;
+	}
+	
+	private List<RolePart> getRoleParts(List<WhenRolePartCompleted> whenRolePartCompletedList){
+		List<RolePart> roleParts = new ArrayList<RolePart>();
+		
+		for(WhenRolePartCompleted completed : whenRolePartCompletedList){
+			RolePart rolePart = (RolePart) completed.getRef();
+			roleParts.add(rolePart);
+		}
+		
+		return roleParts;
+	}
+
+	public void setCompleteAct(CompleteAct completeAct2) {
+		
+		this.completeAct = completeAct2;
+		durationField.setText((String) "");
+		noneButton.setSelected(true);
+		
+		if(completeAct2 == null){
+			this.completeAct = new CompleteAct();
+			return;
+		}
+		
+		if(completeAct2.getWhenRolePartCompletedList() != null && 
+				completeAct2.getWhenRolePartCompletedList().size() != 0){
+			rolePartButton.setSelected(true);
+			rolePartsModel.setObjectsSelected(getRoleParts(completeAct2.getWhenRolePartCompletedList()));
+		} else if(completeAct2.getTimeLimit() != null){
+			timeLimitButton.setSelected(true);
+			durationField.setText(((Object) completeAct2.getTimeLimit()).getValue().toString());
+		} else {
+			noneButton.setSelected(true);
+		}
+		
+	}
+
+	public CompleteActPanel(List<org.sakaiproject.authoring.panel.RolePart> list){
+		FormLayout layout = new FormLayout("left:p, 5dlu, 75dlu, 3dlu, p", "p, 4dlu, p, 4dlu, 150dlu");
+		
+		PanelBuilder builder = new PanelBuilder(layout);
+		builder.setDefaultDialogBorder();
+		
+		CellConstraints cc = new CellConstraints();
+		
+		buttonGroup.add(noneButton);
+		buttonGroup.add(rolePartButton);
+		buttonGroup.add(timeLimitButton);
+		noneButton.setSelected(true);
+		durationField.setEditable(false);
+		
+		ActionListener listener = new ActionListener(){
+
+			 
+			public void actionPerformed(ActionEvent e) {
+				durationField.setEditable(timeLimitButton.isSelected());
+				rolePartsModel.setSelectable(rolePartButton.isSelected());
+				rolePartsTable.setEnabled(rolePartButton.isSelected());
+			}
+			
+		};
+		
+		noneButton.addActionListener(listener);
+		rolePartButton.addActionListener(listener);
+		timeLimitButton.addActionListener(listener);
+		
+		builder.add(noneButton, cc.xy(1, 1));
+		builder.add(rolePartButton, cc.xyw(3, 1, 3));
+		builder.add(timeLimitButton, cc.xy(1, 3));
+		builder.add(durationField, cc.xy(3,3));
+		
+		JLabel label = new JLabel(Bundle.getString("label.durationexample"));
+		label.setForeground(Color.BLUE);
+		builder.add(label, cc.xy(5,3));
+		
+		rolePartsModel = new RolePartSelectionModel(list);
+		rolePartsTable = new JTable(rolePartsModel);
+		rolePartsTable.getColumnModel().getColumn(0).setMaxWidth(25);
+		
+		builder.add(new JScrollPane(rolePartsTable), cc.xyw(1, 5, 5));
+		
+		add(builder.getPanel());
+	}
+
+	
+
+}

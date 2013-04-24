@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 20
+/svn/tidia/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidia/!svn/ver/155/projects/authoring/trunk/code/authoring/src/main/resources/example
+END
+graph.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidia/!svn/ver/153/projects/authoring/trunk/code/authoring/src/main/resources/example/graph.xml
+END
+imsmanifest - Cópia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tidia/!svn/ver/53/projects/authoring/trunk/code/authoring/src/main/resources/example/imsmanifest%20-%20C%C3%B3pia.xml
+END
+imsmanifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tidia/!svn/ver/153/projects/authoring/trunk/code/authoring/src/main/resources/example/imsmanifest.xml
+END

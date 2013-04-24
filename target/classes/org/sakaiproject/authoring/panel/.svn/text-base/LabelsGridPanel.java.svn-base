@@ -1,0 +1,103 @@
+package org.sakaiproject.authoring.panel;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.FlowLayout;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.Map;
+
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
+import javax.swing.JToolBar;
+
+import org.sakaiproject.authoring.dialog.ObjectDialog;
+import org.sakaiproject.authoring.label.Label;
+
+public class LabelsGridPanel extends JPanel {
+	
+	private static final long serialVersionUID = 6904294658822812776L;
+
+	private JToolBar toolBar;
+	
+	private JPanel centralPanel;
+	
+	private Label selectedLabel;
+	
+	private Map<Class<?>, ObjectDialog> dialogs;
+	
+	public LabelsGridPanel(Map<Class<?>, ObjectDialog> dialogs ){
+		
+		centralPanel = new JPanel();
+		
+		this.dialogs = dialogs;
+		
+		setBackground(Color.WHITE);
+		
+		setLayout(new BorderLayout());
+		add(centralPanel, BorderLayout.CENTER);
+		centralPanel.setLayout(new FlowLayout(FlowLayout.LEADING, 5, 5));
+		
+		toolBar = new JToolBar(JToolBar.HORIZONTAL);
+		toolBar.setBorder(BorderFactory.createEtchedBorder());
+		toolBar.setFloatable(false);
+		add(toolBar, BorderLayout.NORTH);
+		
+		centralPanel.addMouseListener(new MouseAdapter(){
+			public void mousePressed(MouseEvent e)
+			{
+				selectedLabel = null;
+			}
+		});
+		
+	}
+	
+	public Label getSelectedLabel() {
+		return selectedLabel;
+	}
+
+	public void setSelectedLabel(Label selectedLabel) {
+		if(this.selectedLabel != selectedLabel && this.selectedLabel != null){
+			this.selectedLabel.setSelected(false);
+		}
+		this.selectedLabel = selectedLabel;
+		this.selectedLabel.setSelected(true);
+	}
+	
+	
+	public void add(Label label) {
+		centralPanel.add(label);
+		revalidate();
+		repaint();
+	}
+	
+	public void remove(Label label) {
+		centralPanel.remove(label);
+		revalidate();
+		repaint();
+	}
+	
+	public Label getLabelWithObject(Object object){
+		for(Component component : centralPanel.getComponents()){
+			if(component instanceof Label){
+				Label label = (Label) component;
+				if(label.getObject().equals(object)){
+					return label;
+				}
+			}
+		}
+		return null;
+	}
+	
+	public void showDialogWithLabel(Label label){
+		ObjectDialog labelDialog = dialogs.get(label.getObject().getClass());
+		labelDialog.setObject(label.getObject());
+		labelDialog.setVisible(true);
+	}
+
+	public JToolBar getToolBar() {
+		return toolBar;
+	}
+	
+}

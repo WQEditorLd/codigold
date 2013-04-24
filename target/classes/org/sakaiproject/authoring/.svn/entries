@@ -1,0 +1,160 @@
+10
+
+dir
+153
+http://161.24.2.209/svn/tidia/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring
+http://161.24.2.209/svn/tidia
+
+
+
+2010-04-30T17:33:56.277777Z
+152
+adalberto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e9d83c56-7e9a-4134-b579-d2d33a6e020f
+
+label
+dir
+
+Authoring.java
+file
+
+
+
+
+2010-04-30T15:46:41.782000Z
+6cde58ef566815eb36523a15b9d607fb
+2010-04-30T17:00:21.117802Z
+144
+adalberto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2115
+
+proxy
+dir
+
+event
+dir
+
+listener
+dir
+
+AuthoringApplet.java
+file
+
+
+
+
+2010-02-05T17:39:58.024000Z
+ee6d41c3c1dfd7018e51171cb7dd04d9
+2010-04-30T17:00:39.297874Z
+145
+adalberto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+402
+
+table
+dir
+
+textfield
+dir
+
+parser
+dir
+
+draw
+dir
+
+panel
+dir
+
+dialog
+dir
+
+utils
+dir
+
+model
+dir
+
+graph
+dir
+
+accordion
+dir
+
+filechooser
+dir
+
+jgraphx
+dir
+
+menu
+dir
+
+domain
+dir
+
+
+
+delete
+
+combobox
+dir
+
+list
+dir
+

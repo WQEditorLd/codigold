@@ -1,0 +1,163 @@
+package org.sakaiproject.authoring.model;
+
+import java.io.File;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.imsglobal.jaxb.content.Resource;
+import org.imsglobal.jaxb.ld.Activities;
+import org.imsglobal.jaxb.ld.ActivityStructure;
+import org.imsglobal.jaxb.ld.LearningActivity;
+import org.imsglobal.jaxb.ld.LearningActivityRef;
+import org.imsglobal.jaxb.ld.SupportActivity;
+import org.imsglobal.jaxb.ld.SupportActivityRef;
+import org.sakaiproject.authoring.event.EventController;
+import org.sakaiproject.authoring.utils.LearningDesignUtils;
+
+public class ActivitiesModel {
+	
+	private Activities activities;
+	
+	public static final String ACTIVITY_ADDED_EVENT = "ActivityAddedEvent";
+	public static final String ACTIVITY_REMOVED_EVENT = "ActivityRemovedEvent";
+	public static final String ACTIVITY_CHANGED_EVENT = "ActivityChangedEvent";
+	
+	private int activityCount;
+
+	public Activities getActivities() {
+		if(activities == null){
+			activities = new Activities();
+		}
+		return activities;
+	}
+
+	public void setActivities(Activities activities) {
+		this.activities = activities;
+		
+		if(activities == null){
+			return;
+		}
+		
+		for(Object activity : activities.getLearningActivityOrSupportActivityOrActivityStructure()){
+			EventController.getInstance().dispatchEvent(ACTIVITY_ADDED_EVENT, activity);
+		}
+		
+		activityCount = activities.getLearningActivityOrSupportActivityOrActivityStructure().size();
+	}
+	
+	public void addActivity(Object activity){
+		
+		if(activities == null){
+			activities = new Activities();
+		}
+		
+		activities.getLearningActivityOrSupportActivityOrActivityStructure().add((Serializable)activity);
+		
+		if(activity instanceof LearningActivity){
+			((LearningActivity) activity).setIdentifier("Activity"+activityCount++);
+		}
+		if(activity instanceof SupportActivity){
+			((SupportActivity) activity).setIdentifier("Activity"+activityCount++);
+		}
+		if(activity instanceof ActivityStructure){
+			((ActivityStructure) activity).setIdentifier("Activity"+activityCount++);
+		}
+		
+		
+		EventController.getInstance().dispatchEvent(ACTIVITY_ADDED_EVENT, activity);		
+	}
+	
+	public void removeActivity(Object activity){
+		
+		if(activities == null){
+			return;
+		}
+		
+		activities.getLearningActivityOrSupportActivityOrActivityStructure().remove((Serializable)activity);
+		
+		EventController.getInstance().dispatchEvent(ACTIVITY_REMOVED_EVENT, activities);		
+	}
+	
+	public ActivityStructure addStructureActivity(Set<Object> activities, String name){
+		
+		ActivityStructure structure = new ActivityStructure();
+		structure.setTitle(name);
+		
+		for(Object object : activities){
+			if(object instanceof LearningActivity){
+				LearningActivityRef ref = new LearningActivityRef();
+				ref.setRef(object);
+				structure.getLearningActivityRefOrSupportActivityRefOrUnitOfLearningHref().add(ref);			
+			}
+			if(object instanceof SupportActivity){
+				SupportActivityRef ref = new SupportActivityRef();
+				ref.setRef(object);
+				structure.getLearningActivityRefOrSupportActivityRefOrUnitOfLearningHref().add(ref);			
+			}
+		}
+		
+		addActivity(structure);
+		
+		return structure;
+	}
+	
+	public List<Resource> getResources(File directory){
+		
+		List<Resource> resources = new ArrayList<Resource>();
+		
+		if(activities == null){
+			return resources;
+		}
+		
+		for(Object activity : activities.getLearningActivityOrSupportActivityOrActivityStructure()){
+			if(activity instanceof LearningActivity){
+				LearningActivity learningActivity = (LearningActivity) activity;
+				if(learningActivity.getLearningObjectives() != null){
+					resources.addAll(LearningDesignUtils.getResources(
+							learningActivity.getLearningObjectives().getItemList(), directory));
+				}
+				if(learningActivity.getActivityDescription() != null){
+					resources.addAll(LearningDesignUtils.getResources(
+							learningActivity.getActivityDescription().getItemList(), directory));
+				}
+				if(learningActivity.getPrerequisites() != null){
+					resources.addAll(LearningDesignUtils.getResources(
+							learningActivity.getPrerequisites().getItemList(), directory));
+				}
+				
+			}
+			if(activity instanceof ActivityStructure){
+				ActivityStructure activityStructure = (ActivityStructure) activity;
+				if(activityStructure.getInformation() != null){
+					resources.addAll(LearningDesignUtils.getResources(
+							activityStructure.getInformation().getItemList(), directory));
+				}
+				
+			}
+			if(activity instanceof SupportActivity){
+				SupportActivity supportActivity = (SupportActivity) activity;
+				if(supportActivity.getActivityDescription() != null){
+					resources.addAll(LearningDesignUtils.getResources(
+							supportActivity.getActivityDescription().getItemList(), directory));
+				}
+			}
+		}
+		
+		return resources;
+	}
+	
+	public Object getActivityWithIdentifier(String objectIdentifier) {
+		if(activities == null){
+			return null;
+		}
+		for(Object activity : activities.getLearningActivityOrSupportActivityOrActivityStructure()){
+			if(objectIdentifier.equals(LearningDesignUtils.getIdentifier(activity))){
+				return activity;
+			}
+		}
+		return null;
+	}
+
+}

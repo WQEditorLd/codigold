@@ -1,0 +1,78 @@
+package org.sakaiproject.authoring.listener;
+
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import org.imsglobal.jaxb.ld.Act;
+import org.imsglobal.jaxb.ld.ActivityStructure;
+import org.imsglobal.jaxb.ld.Environment;
+import org.imsglobal.jaxb.ld.Learner;
+import org.imsglobal.jaxb.ld.LearningActivity;
+import org.imsglobal.jaxb.ld.Play;
+import org.imsglobal.jaxb.ld.Staff;
+import org.imsglobal.jaxb.ld.SupportActivity;
+import org.sakaiproject.authoring.dialog.ActDialog;
+import org.sakaiproject.authoring.dialog.ActivityStructureDialog;
+import org.sakaiproject.authoring.dialog.EnvironmentDialog;
+import org.sakaiproject.authoring.dialog.LearnerDialog;
+import org.sakaiproject.authoring.dialog.LearningActivityDialog;
+import org.sakaiproject.authoring.dialog.ObjectDialog;
+import org.sakaiproject.authoring.dialog.PlayDialog;
+import org.sakaiproject.authoring.dialog.StaffDialog;
+import org.sakaiproject.authoring.dialog.SupportActivityDialog;
+import org.sakaiproject.authoring.graph.Cell;
+import org.sakaiproject.authoring.graph.Graph;
+import org.sakaiproject.authoring.model.LearningDesignModel;
+
+public class GraphDoubleClickListener extends MouseAdapter {
+	
+	private Graph graph;
+	
+	private LearningDesignModel ldModel;
+	
+	public GraphDoubleClickListener(Graph graph, LearningDesignModel ldModel){
+		this.graph = graph;
+		this.ldModel = ldModel;
+	}
+	
+	 
+	@SuppressWarnings("unchecked")
+	public void mouseClicked(MouseEvent e) {
+		if(e.getClickCount() == 2){
+			Cell cell = graph.getCellAtPoint(e.getX(), e.getY());
+			
+			if(cell == null || cell.getObject() == null){
+				return;
+			}
+			
+			ObjectDialog dialog = null;
+			if(cell.getObject() instanceof LearningActivity){
+				dialog = new LearningActivityDialog(ldModel.getComponentsModel().getEnvironmentsModel());
+			}
+			else if(cell.getObject() instanceof SupportActivity){
+				dialog = new SupportActivityDialog(ldModel.getComponentsModel().getEnvironmentsModel());
+			}
+			else if(cell.getObject() instanceof ActivityStructure){
+				dialog = new ActivityStructureDialog(ldModel.getComponentsModel().getEnvironmentsModel());
+			}
+			else if(cell.getObject() instanceof Learner){
+				dialog = new LearnerDialog();
+			}
+			else if(cell.getObject() instanceof Staff){
+				dialog = new StaffDialog();
+			}
+			else if(cell.getObject() instanceof Environment){
+				dialog = new EnvironmentDialog(ldModel.getComponentsModel().getRolesModel());
+			}
+			else if(cell.getObject() instanceof Act){
+				dialog = new ActDialog((Act) cell.getObject());
+			}
+			else if(cell.getObject() instanceof Play){
+				dialog = new PlayDialog((Play) cell.getObject());
+			}
+			dialog.setObject(cell.getObject());
+			dialog.setVisible(true);
+			
+		}
+	}
+}

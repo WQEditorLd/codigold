@@ -1,0 +1,140 @@
+package org.sakaiproject.authoring.draw;
+
+import java.awt.Color;
+import java.awt.Point;
+import java.awt.event.KeyListener;
+import java.awt.geom.Rectangle2D;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.swing.SwingConstants;
+
+import org.jgraph.JGraph;
+import org.jgraph.event.GraphSelectionListener;
+import org.jgraph.graph.DefaultCellViewFactory;
+import org.jgraph.graph.DefaultGraphCell;
+import org.jgraph.graph.DefaultGraphModel;
+import org.jgraph.graph.GraphCell;
+import org.jgraph.graph.GraphConstants;
+import org.jgraph.graph.GraphModel;
+import org.jgraph.graph.ParentMap;
+import org.jgraph.graph.VertexView;
+import org.sakaiproject.style.AuthoringStyle;
+
+import com.mxgraph.model.mxCell;
+import com.mxgraph.view.mxGraph;
+
+
+
+public class AuthoringGraphFactory {
+	
+	private static final double CELL_SIZE = 150;
+	
+	public static GraphCell createDefaultCell(Object data, Point location){
+		
+		DefaultGraphCell cell;
+		
+		try {
+			cell = new DefaultGraphCell(data.getClass().getMethod("getTitle").invoke(data));
+		} catch (Exception e) {
+			e.printStackTrace();
+			cell = new DefaultGraphCell();
+		} 
+				
+		//GraphConstants.setIcon(cell.getAttributes(), AuthoringStyle.getIcon(data.getClass()));
+		GraphConstants.setFont(cell.getAttributes(), AuthoringStyle.cellFontMin);
+		GraphConstants.setForeground(cell.getAttributes(), Color.BLUE);
+		GraphConstants.setBounds(cell.getAttributes(), new Rectangle2D.Double(location.getX(), 
+				location.getY(), CELL_SIZE, CELL_SIZE));
+		GraphConstants.setEditable(cell.getAttributes(), false);
+		GraphConstants.setBorderColor(cell.getAttributes(), Color.BLACK);
+		GraphConstants.setResize(cell.getAttributes(), true);
+		
+		cell.addPort(); 
+		
+		return cell;
+	}
+	
+	public static JGraph createDefaultGraph(KeyListener keyListener, 
+			DrawActMarqueeHandler marqueeHandler, GraphSelectionListener selectionListener){
+		
+		VertexView.renderer = new JGraphGroupRenderer();
+		
+		GraphModel model = new DefaultGraphModel();
+		GraphLayoutCache layoutCache = new GraphLayoutCache(model,
+				new DefaultCellViewFactory(), true);	
+		Set locals = new HashSet();
+		locals.add(GraphConstants.BOUNDS);
+		layoutCache.setLocalAttributes(locals);
+		JGraph graph = new JGraph(model, layoutCache);
+		graph.addKeyListener(keyListener);
+		graph.setConnectable(true);
+		graph.setMarqueeHandler(marqueeHandler);
+		graph.setJumpToDefaultPort(true);
+		graph.setPortsVisible(true);
+		graph.addMouseListener(new JGraphFoldingManager());
+		graph.addGraphSelectionListener(selectionListener);
+		graph.setGridEnabled(true);
+		graph.setGridSize(6);
+		graph.setTolerance(2);
+		
+		return graph;
+	}
+	
+	public static GraphCell createDefaultGroupCell(JGraph graph, Object[] children, String title) {
+		
+		children = graph.order(children);
+		
+		if (children != null && children.length > 0) {
+			double gs2 = 2 * graph.getGridSize();
+			Rectangle2D collapsedBounds = graph.getCellBounds(children);
+			collapsedBounds.setFrame(collapsedBounds.getX(), collapsedBounds
+					.getY(), Math.max(collapsedBounds.getWidth() / 4, gs2),
+					Math.max(collapsedBounds.getHeight() / 2, gs2));
+			graph.snap(collapsedBounds);
+			DefaultGraphCell group = createGroupCell(collapsedBounds, title);
+			if (group != null && children != null && children.length > 0) {
+				// Create the group structure
+				ParentMap pm = new ParentMap();
+				for (int i = 0; i < children.length; i++) {
+					pm.addEntry(children[i], group);
+				}
+				graph.getGraphLayoutCache().insert(new Object[] { group },
+						null, null, pm);
+			}
+			return group;
+		}
+		return null;
+	}
+	
+	protected static DefaultGraphCell createGroupCell(Rectangle2D collapsedBounds, String actTitle) {
+		DefaultGraphCell group = new DefaultGraphCell(actTitle);
+		
+		group.addPort();
+		GraphConstants.setInset(group.getAttributes(), 10);
+		GraphConstants.setFont(group.getAttributes(), AuthoringStyle.cellFontMin);
+		GraphConstants.setForeground(group.getAttributes(), Color.BLUE);
+		GraphConstants.setBackground(group.getAttributes(), new Color(240, 240,
+				255));
+		GraphConstants.setVerticalAlignment(group.getAttributes(), SwingConstants.BOTTOM);
+		GraphConstants.setBorderColor(group.getAttributes(), Color.black);
+		GraphConstants.setOpaque(group.getAttributes(), true);
+		GraphConstants.setBorder(group.getAttributes(), JGraphShadowBorder
+				.getSharedInstance());
+		
+		GraphConstants.setBounds(group.getAttributes(), collapsedBounds);
+		return group;
+	}
+
+	public static mxCell insertCell(mxGraph graph, Object data, Point location) {
+		mxCell cell = (mxCell) graph.insertVertex(graph.getDefaultParent(), null, data, 
+					location.getX(), location.getY(), CELL_SIZE, CELL_SIZE,
+					"roundImage;image=/learner2.png");
+		
+		
+		
+		return cell;
+	}
+	
+	
+}

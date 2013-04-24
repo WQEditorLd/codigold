@@ -1,0 +1,36 @@
+package org.sakaiproject.authoring.listener;
+
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+
+import org.imsglobal.jaxb.ld.Environment;
+import org.sakaiproject.authoring.dialog.EnvironmentMiniDialog;
+import org.sakaiproject.authoring.model.EnvironmentsModel;
+import org.sakaiproject.authoring.utils.Bundle;
+import org.sakaiproject.authoring.utils.FileUtil;
+
+public class AddEnvironmentButtonActionListener extends AbstractAction {
+	
+	private static final long serialVersionUID = -5111187807220030909L;
+	
+	private EnvironmentsModel environmentsModel;
+	
+	public AddEnvironmentButtonActionListener(EnvironmentsModel environmentsModel){
+		// TODO: check this bundle ? - staff ????
+		super(Bundle.getString("button.newstaffrole"), FileUtil.getImageIcon("image.plusicon"));
+		
+		this.environmentsModel = environmentsModel;
+	}
+
+	public void actionPerformed(ActionEvent arg0) {
+		
+		EnvironmentMiniDialog dialog = new EnvironmentMiniDialog();
+		dialog.setVisible(true);
+		
+		if (dialog.getEnvironment() != null) {
+			environmentsModel.addEnvironment((Environment)dialog.getEnvironment());
+		}
+	}
+	
+}

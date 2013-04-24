@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tidia/!svn/ver/137/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx
+END
+AuthoringCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tidia/!svn/ver/136/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/AuthoringCell.java
+END
+AuthoringGraphImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tidia/!svn/ver/137/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/AuthoringGraphImpl.java
+END
+AuthoringGraphComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/AuthoringGraphComponent.java
+END
+LearningDesignCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/137/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/LearningDesignCodec.java
+END
+AuthoringCellFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tidia/!svn/ver/137/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/AuthoringCellFactory.java
+END
+AuthoringCellCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tidia/!svn/ver/79/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/jgraphx/AuthoringCellCodec.java
+END

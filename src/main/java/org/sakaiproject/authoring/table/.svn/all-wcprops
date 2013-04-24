@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidia/!svn/ver/132/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table
+END
+RolePartSelectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/78/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table/RolePartSelectionModel.java
+END
+ItemTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/132/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table/ItemTableModel.java
+END
+ItemsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tidia/!svn/ver/132/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table/ItemsTable.java
+END
+PlaySelectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tidia/!svn/ver/78/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table/PlaySelectionModel.java
+END
+TableSelectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/78/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/table/TableSelectionModel.java
+END

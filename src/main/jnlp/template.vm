@@ -1,0 +1,17 @@
+<jnlp spec="$jnlpspec" codebase="$project.Url" >
+	<information>
+		<title>$project.Name</title>
+		<vendor>$project.Organization.Name</vendor>
+		<homepage href="$project.Url"/>
+		<description>$project.Description</description>
+		<offline-allowed/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="$j2seVersion"/>
+	     $dependencies
+	</resources>
+	<applet-desc main-class="$mainClass" name="$project.artifactId" width="500" height="500"/>
+</jnlp>

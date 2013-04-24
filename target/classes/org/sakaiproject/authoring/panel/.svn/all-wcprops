@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidia/!svn/ver/148/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel
+END
+ItemModelPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/134/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ItemModelPanel.java
+END
+EnvironmentItemGeneralPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/EnvironmentItemGeneralPanel.java
+END
+RolesPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/RolesPanel.java
+END
+DurationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tidia/!svn/ver/53/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/DurationPanel.java
+END
+ComponentsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ComponentsPanel.java
+END
+CompleteActivityPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/148/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/CompleteActivityPanel.java
+END
+EnvironmentsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/EnvironmentsPanel.java
+END
+LearningDesignPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tidia/!svn/ver/148/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/LearningDesignPanel.java
+END
+ActivityGeneralPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tidia/!svn/ver/148/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ActivityGeneralPanel.java
+END
+CompletePlayPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/CompletePlayPanel.java
+END
+RoleGeneralPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tidia/!svn/ver/73/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/RoleGeneralPanel.java
+END
+CompleteActPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/CompleteActPanel.java
+END
+GraphPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tidia/!svn/ver/133/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/GraphPanel.java
+END
+ActivitiesPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ActivitiesPanel.java
+END
+ManifestPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tidia/!svn/ver/65/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ManifestPanel.java
+END
+ObjectDialogButtonBarPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tidia/!svn/ver/65/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/ObjectDialogButtonBarPanel.java
+END
+LabelsGridPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/65/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/LabelsGridPanel.java
+END
+LearningActivityPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/148/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/LearningActivityPanel.java
+END
+CompleteUnitOfLearningPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/panel/CompleteUnitOfLearningPanel.java
+END

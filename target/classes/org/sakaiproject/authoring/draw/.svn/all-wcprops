@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw
+END
+JGraphGroupRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/JGraphGroupRenderer.java
+END
+JGraphShadowBorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/JGraphShadowBorder.java
+END
+DrawRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tidia/!svn/ver/78/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/DrawRectangle.java
+END
+DrawActMarqueeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tidia/!svn/ver/53/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/DrawActMarqueeHandler.java
+END
+GraphLayoutCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/GraphLayoutCache.java
+END
+DrawActPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/DrawActPanel.java
+END
+JGraphFoldingManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/53/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/JGraphFoldingManager.java
+END
+AuthoringGraphFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tidia/!svn/ver/121/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/draw/AuthoringGraphFactory.java
+END

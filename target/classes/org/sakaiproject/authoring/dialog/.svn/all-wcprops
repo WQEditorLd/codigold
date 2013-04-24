@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidia/!svn/ver/151/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog
+END
+NameDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tidia/!svn/ver/73/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/NameDialog.java
+END
+EnvironmentMiniDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/EnvironmentMiniDialog.java
+END
+LearningObjectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/LearningObjectDialog.java
+END
+LearnerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/LearnerDialog.java
+END
+ServiceOptionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/tidia/!svn/ver/100/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ServiceOptionDialog.java
+END
+SupportActivityDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/SupportActivityDialog.java
+END
+GameServiceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/100/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/GameServiceDialog.java
+END
+SendMailDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/SendMailDialog.java
+END
+StaffDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/StaffDialog.java
+END
+EnvironmentDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/100/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/EnvironmentDialog.java
+END
+PlayDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/PlayDialog.java
+END
+ObjectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tidia/!svn/ver/138/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ObjectDialog.java
+END
+LearningDesignObjectivesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/LearningDesignObjectivesDialog.java
+END
+ConferenceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ConferenceDialog.java
+END
+ActDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ActDialog.java
+END
+ActivityMiniDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ActivityMiniDialog.java
+END
+LearningActivityDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/tidia/!svn/ver/151/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/LearningActivityDialog.java
+END
+CompleteUnitOfLearningDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tidia/!svn/ver/72/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/CompleteUnitOfLearningDialog.java
+END
+ActivityStructureDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/tidia/!svn/ver/147/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/ActivityStructureDialog.java
+END
+LearningDesignPrerequisitesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/tidia/!svn/ver/97/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/LearningDesignPrerequisitesDialog.java
+END
+RoleMiniDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/dialog/RoleMiniDialog.java
+END

@@ -1,0 +1,56 @@
+package org.sakaiproject.authoring.panel;
+
+import java.awt.BorderLayout;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.JPanel;
+
+import org.imsglobal.jaxb.ld.ActivityStructure;
+import org.imsglobal.jaxb.ld.LearningActivity;
+import org.imsglobal.jaxb.ld.SupportActivity;
+import org.sakaiproject.authoring.dialog.ActivityStructureDialog;
+import org.sakaiproject.authoring.dialog.LearningActivityDialog;
+import org.sakaiproject.authoring.dialog.ObjectDialog;
+import org.sakaiproject.authoring.dialog.SupportActivityDialog;
+import org.sakaiproject.authoring.event.EventController;
+import org.sakaiproject.authoring.listener.AddActivityButtonActionListener;
+import org.sakaiproject.authoring.listener.ObjectAddedLabelsGridListener;
+import org.sakaiproject.authoring.listener.ObjectChangedLabelsGridListener;
+import org.sakaiproject.authoring.listener.ObjectRemovedLabelsGridListener;
+import org.sakaiproject.authoring.listener.RemoveActivityButtonActionListener;
+import org.sakaiproject.authoring.model.ActivitiesModel;
+import org.sakaiproject.authoring.model.EnvironmentsModel;
+import org.sakaiproject.authoring.utils.Bundle;
+
+public class ActivitiesPanel extends JPanel {
+	
+	private static final long serialVersionUID = 1044365692543857400L;
+
+	public static final String TITLE = Bundle.getString("title.activities");
+	
+	private LabelsGridPanel labelsGridPanel;
+		
+	public ActivitiesPanel(ActivitiesModel activitiesModel, EnvironmentsModel environmentsModel){
+		
+		Map<Class<?>, ObjectDialog> dialogs = new HashMap<Class<?>, ObjectDialog>();
+		dialogs.put(LearningActivity.class, new LearningActivityDialog(environmentsModel));
+		dialogs.put(SupportActivity.class, new SupportActivityDialog(environmentsModel));
+		dialogs.put(ActivityStructure.class, new ActivityStructureDialog(environmentsModel));
+		labelsGridPanel = new LabelsGridPanel(dialogs);
+		
+		setLayout(new BorderLayout());
+		add(labelsGridPanel, BorderLayout.CENTER);
+		
+		EventController.getInstance().addListener(ActivitiesModel.ACTIVITY_ADDED_EVENT, 
+				new ObjectAddedLabelsGridListener(labelsGridPanel));
+		EventController.getInstance().addListener(ActivitiesModel.ACTIVITY_CHANGED_EVENT, 
+				new ObjectChangedLabelsGridListener(labelsGridPanel));
+		EventController.getInstance().addListener(ActivitiesModel.ACTIVITY_REMOVED_EVENT, 
+				new ObjectRemovedLabelsGridListener(labelsGridPanel));
+		
+		labelsGridPanel.getToolBar().add(new AddActivityButtonActionListener(activitiesModel));
+		labelsGridPanel.getToolBar().add(new RemoveActivityButtonActionListener(activitiesModel, labelsGridPanel));
+		
+	}	
+}

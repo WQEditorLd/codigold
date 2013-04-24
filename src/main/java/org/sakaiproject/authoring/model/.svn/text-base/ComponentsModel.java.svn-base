@@ -1,0 +1,109 @@
+package org.sakaiproject.authoring.model;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.imsglobal.jaxb.content.Resource;
+import org.imsglobal.jaxb.ld.Components;
+
+public class ComponentsModel {
+	
+	private Components components;
+	
+	private RolesModel rolesModel = new RolesModel();
+	private ActivitiesModel activitiesModel = new ActivitiesModel();
+	private EnvironmentsModel environmentsModel = new EnvironmentsModel();
+	
+	public Components getComponents() {
+		
+		if(components == null){
+			components = new Components();
+		}
+		
+		if(!activitiesModel.getActivities().getLearningActivityOrSupportActivityOrActivityStructure().isEmpty()){
+			components.setActivities(activitiesModel.getActivities());
+		} else {
+			components.setActivities(null);
+		}
+		if(!rolesModel.getRoles().getLearnerList().isEmpty() || 
+				!rolesModel.getRoles().getStaffList().isEmpty()){
+			components.setRoles(rolesModel.getRoles());
+		} else {
+			components.setRoles(null);
+		}
+		if(!environmentsModel.getEnvironments().getEnvironmentList().isEmpty()){
+			components.setEnvironments(environmentsModel.getEnvironments());
+		} else {
+			components.setEnvironments(null);
+		}
+		
+		return components;
+	}
+	public void setComponents(Components components) {
+		this.components = components;
+		
+		if(components != null){
+			rolesModel.setRoles(components.getRoles());
+			activitiesModel.setActivities(components.getActivities());
+			environmentsModel.setEnvironments(components.getEnvironments());
+		} else {
+			rolesModel.setRoles(null);
+			activitiesModel.setActivities(null);
+			environmentsModel.setEnvironments(null);
+		}
+		
+	}
+	public RolesModel getRolesModel() {
+		return rolesModel;
+	}
+	public void setRolesModel(RolesModel rolesModel) {
+		this.rolesModel = rolesModel;
+	}
+	public EnvironmentsModel getEnvironmentsModel() {
+		return environmentsModel;
+	}
+	public void setEnvironmentsModel(EnvironmentsModel environmentsModel) {
+		this.environmentsModel = environmentsModel;
+	}
+	public ActivitiesModel getActivitiesModel() {
+		return activitiesModel;
+	}
+	public void setActivitiesModel(ActivitiesModel activitiesModel) {
+		this.activitiesModel = activitiesModel;
+	}
+	
+	public Collection<Resource> getResources(File directory) {
+		
+		List<Resource> resources = new ArrayList<Resource>();
+		
+		if(components == null){
+			return resources;
+		}
+		
+		resources.addAll(activitiesModel.getResources(directory));
+		resources.addAll(rolesModel.getResources(directory));
+		resources.addAll(environmentsModel.getResources(directory));
+		
+		return resources;
+	}
+	
+	public Object getComponentWithIdentifier(String objectIdentifier) {
+		
+		Object component = rolesModel.getRoleWithIdentifier(objectIdentifier);
+		if(component != null){
+			return component;
+		}
+		
+		component = activitiesModel.getActivityWithIdentifier(objectIdentifier);
+		if(component != null){
+			return component;
+		}
+		
+		return environmentsModel.getEnvironmentWithIdentifier(objectIdentifier);
+	}
+	
+	
+	
+}

@@ -1,0 +1,90 @@
+package org.sakaiproject.authoring;
+
+import java.awt.BorderLayout;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JFrame;
+import javax.swing.UIManager;
+
+import org.imsglobal.jaxb.content.Manifest;
+import org.sakaiproject.authoring.panel.ManifestPanel;
+import org.sakaiproject.authoring.utils.Bundle;
+import org.sakaiproject.authoring.utils.Preferences;
+
+/**
+ * Authoring
+ * 
+ * Classe principal que monta o Frame principal e o painel Manifest.
+ * Usa o padrão Singleton.
+ *  
+ * @author Márcio Varchavsky
+ *
+ */
+public class Authoring extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+
+	private static Authoring instance;
+
+	private ManifestPanel manifestPanel;
+
+	private Authoring() throws Exception {
+		super(Bundle.getString("title.learningdesignauthoring"));
+
+		// setSize(900, 500);
+		setExtendedState(MAXIMIZED_BOTH);
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(new BorderLayout());
+
+		// Carrega as Preferências do Sistema (authoring.properties)
+		Preferences.loadPreferences();
+		
+		// Adiciona o adapter (classe anônima) para salvar preferências ao sair. 
+		addWindowListener(new WindowAdapter() {
+
+			public void windowClosing(WindowEvent e) {
+				Preferences.savePreferences();
+			}
+		});
+
+		// Inicia UI com Look and Feel do Sistema.
+		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		
+		// Inicia paineis - @see ManifestPanel
+		initPanels();
+
+	}
+
+	private void initPanels() {
+		manifestPanel = new ManifestPanel();
+		add(manifestPanel);
+	}
+
+	/*
+	 * getInstance - singleton.
+	 */
+	public static Authoring getInstance() {
+		if (instance == null) {
+			try {
+				instance = new Authoring();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return instance;
+	}
+
+	public void setManifest(Manifest manifest) {
+		manifestPanel.setManifest(manifest);
+	}
+
+	/*
+	 * Método principal - Inicia o Editor da Aplicação Java.
+	 */
+	public static void main(String[] args) {
+		getInstance().setVisible(true);
+	}
+
+}

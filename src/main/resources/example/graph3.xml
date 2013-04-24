@@ -1,0 +1,3185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel>
+	<root>
+		<mxCell id="0" />
+		<mxCell id="1" parent="0" />
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="2" style="" vertex="1">
+			<org.imsglobal.jaxb.ld.Play as="value"
+				identifier="Play22192" title="WebQuest">
+				<Array as="actList">
+					<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+						title="WebQuest">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart16844">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity0" title="Introdução">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart71221">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity1" title="Tarefa">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+					<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+						title="Suporte" />
+				</Array>
+			</org.imsglobal.jaxb.ld.Play>
+			<mxGeometry as="geometry" height="1265.0" width="780.0" x="10.0">
+				<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+					x="10.0" />
+			</mxGeometry>
+			<mxCell as="parent" id="1" parent="0" />
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="3" style="" vertex="1">
+			<org.imsglobal.jaxb.ld.Act as="value"
+				identifier="Act77552" title="WebQuest">
+				<Array as="rolePartList">
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart16844">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role0" title="Aluno" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity0" title="Introdução">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart71221">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role0" title="Aluno" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity1" title="Tarefa">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+				</Array>
+			</org.imsglobal.jaxb.ld.Act>
+			<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+				y="50.000000000000114">
+				<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+					x="30.0" y="50.000000000000114" />
+			</mxGeometry>
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="2" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Play as="value"
+					identifier="Play22192" title="WebQuest">
+					<Array as="actList">
+						<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+							title="WebQuest">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart16844">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="Aluno" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity0" title="Introdução">
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart71221">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="Aluno" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity1" title="Tarefa">
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+						<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+							title="Suporte" />
+					</Array>
+				</org.imsglobal.jaxb.ld.Play>
+				<mxGeometry as="geometry" height="1265.0" width="780.0"
+					x="10.0">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="10.0" />
+				</mxGeometry>
+				<mxCell as="parent" id="1" parent="0" />
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="4"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="60.000000000000114" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="5"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity0" title="Introdução">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-cd60e5f8-314e-427b-b86d-67a0aeac7cec" title="Descricao-805">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-805-.txt" identifier="Descricao-805-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-805-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="240.0000000000001" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="6" parent="3" source="4"
+			style="shape=connector;endArrow=classic" target="5" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="7"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="190.0"
+				y="60.000000000000114" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="8"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity1" title="Tarefa">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-3a91b63e-ce32-4494-b71d-7aa77d726b12" title="Descricao-283">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-283-.txt" identifier="Descricao-283-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-283-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="190.0"
+				y="240.0000000000001" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="9" parent="3" source="7"
+			style="shape=connector;endArrow=classic" target="8" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="10"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="310.0"
+				y="60.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			collapsed="1" id="11"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/structure_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.ActivityStructure
+				as="value" identifier="Activity5" structureType="selection" title="Processo">
+				<Array as="learningActivityRefOrSupportActivityRefOrUnitOfLearningHref">
+					<org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivity
+							as="ref" identifier="Activity4" title="ProcessoN">
+							<org.imsglobal.jaxb.ld.ItemModel
+								as="activityDescription" title="Descricao">
+								<Array as="itemList">
+									<org.imsglobal.jaxb.ld.Item
+										identifier="item-dd1c07d5-136c-4c97-a380-92f307b5e91c" title="Descricao-755">
+										<org.imsglobal.jaxb.content.Resource
+											as="identifierref" href="Descricao-755-.txt" identifier="Descricao-755-.txt"
+											type="webcontent">
+											<Array as="fileList">
+												<org.imsglobal.jaxb.content.File
+													href="Descricao-755-.txt" />
+											</Array>
+										</org.imsglobal.jaxb.content.Resource>
+									</org.imsglobal.jaxb.ld.Item>
+								</Array>
+							</org.imsglobal.jaxb.ld.ItemModel>
+							<org.imsglobal.jaxb.ld.CompleteActivity
+								as="completeActivity">
+								<org.imsglobal.jaxb.ld.UserChoice
+									as="userChoice" />
+							</org.imsglobal.jaxb.ld.CompleteActivity>
+						</org.imsglobal.jaxb.ld.LearningActivity>
+					</org.imsglobal.jaxb.ld.LearningActivityRef>
+					<org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivity
+							as="ref" identifier="Activity2" title="Processo1">
+							<org.imsglobal.jaxb.ld.ItemModel
+								as="activityDescription" title="Descricao">
+								<Array as="itemList">
+									<org.imsglobal.jaxb.ld.Item
+										identifier="item-9c858f4c-5402-46d8-9851-459498593350" title="Descricao-618">
+										<org.imsglobal.jaxb.content.Resource
+											as="identifierref" href="Descricao-618-.txt" identifier="Descricao-618-.txt"
+											type="webcontent">
+											<Array as="fileList">
+												<org.imsglobal.jaxb.content.File
+													href="Descricao-618-.txt" />
+											</Array>
+										</org.imsglobal.jaxb.content.Resource>
+									</org.imsglobal.jaxb.ld.Item>
+								</Array>
+							</org.imsglobal.jaxb.ld.ItemModel>
+							<org.imsglobal.jaxb.ld.CompleteActivity
+								as="completeActivity">
+								<org.imsglobal.jaxb.ld.UserChoice
+									as="userChoice" />
+							</org.imsglobal.jaxb.ld.CompleteActivity>
+						</org.imsglobal.jaxb.ld.LearningActivity>
+					</org.imsglobal.jaxb.ld.LearningActivityRef>
+					<org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivity
+							as="ref" identifier="Activity3" title="Processo2">
+							<org.imsglobal.jaxb.ld.ItemModel
+								as="activityDescription" title="Descricao">
+								<Array as="itemList">
+									<org.imsglobal.jaxb.ld.Item
+										identifier="item-c55e1c41-c958-4d38-a26a-c4d54e2fee4f" title="Descricao-947">
+										<org.imsglobal.jaxb.content.Resource
+											as="identifierref" href="Descricao-947-.txt" identifier="Descricao-947-.txt"
+											type="webcontent">
+											<Array as="fileList">
+												<org.imsglobal.jaxb.content.File
+													href="Descricao-947-.txt" />
+											</Array>
+										</org.imsglobal.jaxb.content.Resource>
+									</org.imsglobal.jaxb.ld.Item>
+								</Array>
+							</org.imsglobal.jaxb.ld.ItemModel>
+							<org.imsglobal.jaxb.ld.CompleteActivity
+								as="completeActivity">
+								<org.imsglobal.jaxb.ld.UserChoice
+									as="userChoice" />
+							</org.imsglobal.jaxb.ld.CompleteActivity>
+						</org.imsglobal.jaxb.ld.LearningActivity>
+					</org.imsglobal.jaxb.ld.LearningActivityRef>
+					<org.imsglobal.jaxb.ld.SupportActivityRef>
+						<org.imsglobal.jaxb.ld.SupportActivity
+							as="ref" identifier="Activity9" title="Verificação">
+							<org.imsglobal.jaxb.ld.ItemModel
+								as="activityDescription" title="Descricao">
+								<Array as="itemList">
+									<org.imsglobal.jaxb.ld.Item
+										identifier="item-55d25fb1-6173-40aa-ab94-f7b2efdab75c" title="Descricao-408">
+										<org.imsglobal.jaxb.content.Resource
+											as="identifierref" href="Descricao-408-.txt" identifier="Descricao-408-.txt"
+											type="webcontent">
+											<Array as="fileList">
+												<org.imsglobal.jaxb.content.File
+													href="Descricao-408-.txt" />
+											</Array>
+										</org.imsglobal.jaxb.content.Resource>
+									</org.imsglobal.jaxb.ld.Item>
+								</Array>
+							</org.imsglobal.jaxb.ld.ItemModel>
+						</org.imsglobal.jaxb.ld.SupportActivity>
+					</org.imsglobal.jaxb.ld.SupportActivityRef>
+				</Array>
+			</org.imsglobal.jaxb.ld.ActivityStructure>
+			<mxGeometry as="geometry" height="80.0" width="79.0" x="300.0"
+				y="250.0">
+				<mxRectangle as="alternateBounds" height="504.99999999999983"
+					width="205.0" x="300.0" y="250.0" />
+			</mxGeometry>
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="12"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity2" title="Processo1">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-9c858f4c-5402-46d8-9851-459498593350" title="Descricao-618">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-618-.txt" identifier="Descricao-618-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-618-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="60.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="11"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/structure_activity.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.ActivityStructure
+					as="value" identifier="Activity5" structureType="selection" title="Processo">
+					<Array
+						as="learningActivityRefOrSupportActivityRefOrUnitOfLearningHref">
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity4" title="ProcessoN">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-dd1c07d5-136c-4c97-a380-92f307b5e91c" title="Descricao-755">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-755-.txt" identifier="Descricao-755-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-755-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity2" title="Processo1">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-9c858f4c-5402-46d8-9851-459498593350" title="Descricao-618">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-618-.txt" identifier="Descricao-618-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-618-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity3" title="Processo2">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-c55e1c41-c958-4d38-a26a-c4d54e2fee4f" title="Descricao-947">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-947-.txt" identifier="Descricao-947-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-947-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.SupportActivityRef>
+							<org.imsglobal.jaxb.ld.SupportActivity
+								as="ref" identifier="Activity9" title="Verificação">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-55d25fb1-6173-40aa-ab94-f7b2efdab75c" title="Descricao-408">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-408-.txt" identifier="Descricao-408-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-408-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+							</org.imsglobal.jaxb.ld.SupportActivity>
+						</org.imsglobal.jaxb.ld.SupportActivityRef>
+					</Array>
+				</org.imsglobal.jaxb.ld.ActivityStructure>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="300.0"
+					y="250.0">
+					<mxRectangle as="alternateBounds" height="504.99999999999983"
+						width="205.0" x="300.0" y="250.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="3" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Act as="value"
+						identifier="Act77552" title="WebQuest">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart16844">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity0" title="Introdução">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart71221">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity1" title="Tarefa">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+					<mxGeometry as="geometry" height="800.0" width="720.0"
+						x="30.0" y="50.000000000000114">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="30.0" y="50.000000000000114" />
+					</mxGeometry>
+					<org.sakaiproject.authoring.jgraphx.AuthoringCell
+						as="parent" id="2" style="" vertex="1">
+						<org.imsglobal.jaxb.ld.Play as="value"
+							identifier="Play22192" title="WebQuest">
+							<Array as="actList">
+								<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+									title="WebQuest">
+									<Array as="rolePartList">
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart16844">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity0" title="Introdução">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart71221">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity1" title="Tarefa">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+									</Array>
+								</org.imsglobal.jaxb.ld.Act>
+								<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+									title="Suporte" />
+							</Array>
+						</org.imsglobal.jaxb.ld.Play>
+						<mxGeometry as="geometry" height="1265.0" width="780.0"
+							x="10.0">
+							<mxRectangle as="alternateBounds" height="80.0"
+								width="79.0" x="10.0" />
+						</mxGeometry>
+						<mxCell as="parent" id="1" parent="0" />
+					</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="13"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity3" title="Processo2">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-c55e1c41-c958-4d38-a26a-c4d54e2fee4f" title="Descricao-947">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-947-.txt" identifier="Descricao-947-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-947-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="70.0"
+				y="200.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="11"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/structure_activity.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.ActivityStructure
+					as="value" identifier="Activity5" structureType="selection" title="Processo">
+					<Array
+						as="learningActivityRefOrSupportActivityRefOrUnitOfLearningHref">
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity4" title="ProcessoN">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-dd1c07d5-136c-4c97-a380-92f307b5e91c" title="Descricao-755">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-755-.txt" identifier="Descricao-755-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-755-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity2" title="Processo1">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-9c858f4c-5402-46d8-9851-459498593350" title="Descricao-618">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-618-.txt" identifier="Descricao-618-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-618-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity3" title="Processo2">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-c55e1c41-c958-4d38-a26a-c4d54e2fee4f" title="Descricao-947">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-947-.txt" identifier="Descricao-947-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-947-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.SupportActivityRef>
+							<org.imsglobal.jaxb.ld.SupportActivity
+								as="ref" identifier="Activity9" title="Verificação">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-55d25fb1-6173-40aa-ab94-f7b2efdab75c" title="Descricao-408">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-408-.txt" identifier="Descricao-408-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-408-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+							</org.imsglobal.jaxb.ld.SupportActivity>
+						</org.imsglobal.jaxb.ld.SupportActivityRef>
+					</Array>
+				</org.imsglobal.jaxb.ld.ActivityStructure>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="300.0"
+					y="250.0">
+					<mxRectangle as="alternateBounds" height="504.99999999999983"
+						width="205.0" x="300.0" y="250.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="3" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Act as="value"
+						identifier="Act77552" title="WebQuest">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart16844">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity0" title="Introdução">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart71221">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity1" title="Tarefa">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+					<mxGeometry as="geometry" height="800.0" width="720.0"
+						x="30.0" y="50.000000000000114">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="30.0" y="50.000000000000114" />
+					</mxGeometry>
+					<org.sakaiproject.authoring.jgraphx.AuthoringCell
+						as="parent" id="2" style="" vertex="1">
+						<org.imsglobal.jaxb.ld.Play as="value"
+							identifier="Play22192" title="WebQuest">
+							<Array as="actList">
+								<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+									title="WebQuest">
+									<Array as="rolePartList">
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart16844">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity0" title="Introdução">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart71221">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity1" title="Tarefa">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+									</Array>
+								</org.imsglobal.jaxb.ld.Act>
+								<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+									title="Suporte" />
+							</Array>
+						</org.imsglobal.jaxb.ld.Play>
+						<mxGeometry as="geometry" height="1265.0" width="780.0"
+							x="10.0">
+							<mxRectangle as="alternateBounds" height="80.0"
+								width="79.0" x="10.0" />
+						</mxGeometry>
+						<mxCell as="parent" id="1" parent="0" />
+					</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="14"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity4" title="ProcessoN">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-dd1c07d5-136c-4c97-a380-92f307b5e91c" title="Descricao-755">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-755-.txt" identifier="Descricao-755-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-755-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="70.0"
+				y="370.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="11"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/structure_activity.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.ActivityStructure
+					as="value" identifier="Activity5" structureType="selection" title="Processo">
+					<Array
+						as="learningActivityRefOrSupportActivityRefOrUnitOfLearningHref">
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity4" title="ProcessoN">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-dd1c07d5-136c-4c97-a380-92f307b5e91c" title="Descricao-755">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-755-.txt" identifier="Descricao-755-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-755-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity2" title="Processo1">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-9c858f4c-5402-46d8-9851-459498593350" title="Descricao-618">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-618-.txt" identifier="Descricao-618-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-618-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef>
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity3" title="Processo2">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-c55e1c41-c958-4d38-a26a-c4d54e2fee4f" title="Descricao-947">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-947-.txt" identifier="Descricao-947-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-947-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+						<org.imsglobal.jaxb.ld.SupportActivityRef>
+							<org.imsglobal.jaxb.ld.SupportActivity
+								as="ref" identifier="Activity9" title="Verificação">
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item
+											identifier="item-55d25fb1-6173-40aa-ab94-f7b2efdab75c" title="Descricao-408">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Descricao-408-.txt" identifier="Descricao-408-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Descricao-408-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.ItemModel>
+							</org.imsglobal.jaxb.ld.SupportActivity>
+						</org.imsglobal.jaxb.ld.SupportActivityRef>
+					</Array>
+				</org.imsglobal.jaxb.ld.ActivityStructure>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="300.0"
+					y="250.0">
+					<mxRectangle as="alternateBounds" height="504.99999999999983"
+						width="205.0" x="300.0" y="250.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="3" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Act as="value"
+						identifier="Act77552" title="WebQuest">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart16844">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity0" title="Introdução">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart71221">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="Aluno" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity1" title="Tarefa">
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+					<mxGeometry as="geometry" height="800.0" width="720.0"
+						x="30.0" y="50.000000000000114">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="30.0" y="50.000000000000114" />
+					</mxGeometry>
+					<org.sakaiproject.authoring.jgraphx.AuthoringCell
+						as="parent" id="2" style="" vertex="1">
+						<org.imsglobal.jaxb.ld.Play as="value"
+							identifier="Play22192" title="WebQuest">
+							<Array as="actList">
+								<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+									title="WebQuest">
+									<Array as="rolePartList">
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart16844">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity0" title="Introdução">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+										<org.imsglobal.jaxb.ld.RolePart
+											identifier="RolePart71221">
+											<org.imsglobal.jaxb.ld.RoleRef
+												as="roleRef">
+												<org.imsglobal.jaxb.ld.Learner
+													as="ref" identifier="Role0" title="Aluno" />
+											</org.imsglobal.jaxb.ld.RoleRef>
+											<org.imsglobal.jaxb.ld.LearningActivityRef
+												as="learningActivityRef">
+												<org.imsglobal.jaxb.ld.LearningActivity
+													as="ref" identifier="Activity1" title="Tarefa">
+													<org.imsglobal.jaxb.ld.ItemModel
+														as="activityDescription" title="Descricao" />
+													<org.imsglobal.jaxb.ld.CompleteActivity
+														as="completeActivity">
+														<org.imsglobal.jaxb.ld.UserChoice
+															as="userChoice" />
+													</org.imsglobal.jaxb.ld.CompleteActivity>
+												</org.imsglobal.jaxb.ld.LearningActivity>
+											</org.imsglobal.jaxb.ld.LearningActivityRef>
+										</org.imsglobal.jaxb.ld.RolePart>
+									</Array>
+								</org.imsglobal.jaxb.ld.Act>
+								<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+									title="Suporte" />
+							</Array>
+						</org.imsglobal.jaxb.ld.Play>
+						<mxGeometry as="geometry" height="1265.0" width="780.0"
+							x="10.0">
+							<mxRectangle as="alternateBounds" height="80.0"
+								width="79.0" x="10.0" />
+						</mxGeometry>
+						<mxCell as="parent" id="1" parent="0" />
+					</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="15" parent="3" source="10"
+			style="shape=connector;endArrow=classic" target="11" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="16"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity6" title="Avaliação">
+				<org.imsglobal.jaxb.ld.ItemModel as="prerequisites"
+					title="Pre-Requisito">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-305125ca-3e67-4e79-8871-41d2f5fbd8cd" title="Pre-Requisito-333">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Pre-Requisito-333-.txt" identifier="Pre-Requisito-333-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Pre-Requisito-333-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-8a2f2935-82cd-47cf-8c0f-22db7888426e" title="Descricao-97">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-97-.txt" identifier="Descricao-97-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-97-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="540.0"
+				y="250.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="17"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="540.0"
+				y="60.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="18" parent="3" source="17"
+			style="shape=connector;endArrow=classic" target="16" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="19"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity7" title="Conclusão">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-3788268a-1ae0-4eb1-b69e-c83c3eb8572a" title="Descricao-437">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-437-.txt" identifier="Descricao-437-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-437-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="20.0"
+				y="610.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="20"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="10.0"
+				y="430.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="21" parent="3" source="20"
+			style="shape=connector;endArrow=classic" target="19" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="22"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="Aluno" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="550.0"
+				y="430.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="23"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity8" title="Créditos &amp; Referências">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-9de6dbb9-6445-4123-b682-314aba13af3f" title="Descricao-188">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-188-.txt" identifier="Descricao-188-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-188-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="560.0"
+				y="610.0" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="3" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act77552" title="WebQuest">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart16844">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="Introdução">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart71221">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="Aluno" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="Tarefa">
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="800.0" width="720.0" x="30.0"
+					y="50.000000000000114">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="30.0" y="50.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="24" parent="3" source="22"
+			style="shape=connector;endArrow=classic" target="23" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="32" parent="2" source="3"
+			style="shape=connector;endArrow=classic" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			collapsed="1" id="33"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/act.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Act as="value"
+				identifier="Act97522" title="Suporte" />
+			<mxGeometry as="geometry" height="80.0" width="79.0" x="50.0"
+				y="890.0">
+				<mxRectangle as="alternateBounds" height="375.0" width="375.0"
+					x="50.0" y="890.0" />
+			</mxGeometry>
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" id="2" style="" vertex="1">
+				<org.imsglobal.jaxb.ld.Play as="value"
+					identifier="Play22192" title="WebQuest">
+					<Array as="actList">
+						<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+							title="WebQuest">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart16844">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="Aluno" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity0" title="Introdução">
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart71221">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="Aluno" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity1" title="Tarefa">
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+						<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+							title="Suporte" />
+					</Array>
+				</org.imsglobal.jaxb.ld.Play>
+				<mxGeometry as="geometry" height="1265.0" width="780.0"
+					x="10.0">
+					<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+						x="10.0" />
+				</mxGeometry>
+				<mxCell as="parent" id="1" parent="0" />
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="34"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/support_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.SupportActivity
+				as="value" identifier="Activity9" title="Verificação">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-55d25fb1-6173-40aa-ab94-f7b2efdab75c" title="Descricao-408">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-408-.txt" identifier="Descricao-408-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-408-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+			</org.imsglobal.jaxb.ld.SupportActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="110.0"
+				y="239.99999999999977" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="33"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act97522" title="Suporte" />
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="50.0"
+					y="890.0">
+					<mxRectangle as="alternateBounds" height="375.0" width="375.0"
+						x="50.0" y="890.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="35"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/staff.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Staff as="value"
+				identifier="Role1" title="Instrutor" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="59.99999999999977" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="33"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act97522" title="Suporte" />
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="50.0"
+					y="890.0">
+					<mxRectangle as="alternateBounds" height="375.0" width="375.0"
+						x="50.0" y="890.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="36"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/staff.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Staff as="value"
+				identifier="Role1" title="Instrutor" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="160.0"
+				y="79.99999999999977" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="33"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act97522" title="Suporte" />
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="50.0"
+					y="890.0">
+					<mxRectangle as="alternateBounds" height="375.0" width="375.0"
+						x="50.0" y="890.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="37"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/support_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.SupportActivity
+				as="value" identifier="Activity10" title="Avaliação">
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item
+							identifier="item-469fc058-4ed7-46a7-a1fe-ed07cebed0e1" title="Descricao-765">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Descricao-765-.txt" identifier="Descricao-765-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Descricao-765-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+			</org.imsglobal.jaxb.ld.SupportActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="240.0"
+				y="239.99999999999977" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="33"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=black;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act97522" title="Suporte" />
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="50.0"
+					y="890.0">
+					<mxRectangle as="alternateBounds" height="375.0" width="375.0"
+						x="50.0" y="890.0" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" id="2" style="" vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play22192" title="WebQuest">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act77552"
+								title="WebQuest">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart16844">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="Introdução">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart71221">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="Aluno" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="Tarefa">
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act97522"
+								title="Suporte" />
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="1265.0" width="780.0"
+						x="10.0">
+						<mxRectangle as="alternateBounds" height="80.0" width="79.0"
+							x="10.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="30" parent="33" source="35"
+			style="shape=connector;endArrow=classic" target="34" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="31" parent="33" source="36"
+			style="shape=connector;endArrow=classic" target="37" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="38" parent="2" source="3"
+			style="shape=connector;endArrow=classic" target="33" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+	</root>
+</mxGraphModel>

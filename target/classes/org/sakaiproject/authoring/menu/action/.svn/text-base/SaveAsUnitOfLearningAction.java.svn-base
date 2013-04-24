@@ -1,0 +1,98 @@
+package org.sakaiproject.authoring.menu.action;
+
+import java.awt.event.ActionEvent;
+import java.io.File;
+import java.io.IOException;
+
+import javax.swing.AbstractAction;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+
+import org.sakaiproject.authoring.Authoring;
+import org.sakaiproject.authoring.filechooser.LearningDesignFileChooser;
+import org.sakaiproject.authoring.model.ManifestModel;
+import org.sakaiproject.authoring.utils.Bundle;
+import org.sakaiproject.authoring.utils.GraphUtil;
+import org.sakaiproject.authoring.utils.ManifestUtil;
+import org.sakaiproject.authoring.utils.Preferences;
+import org.w3c.dom.Node;
+
+public class SaveAsUnitOfLearningAction extends AbstractAction {
+
+	
+	private static final long serialVersionUID = 1254113129801146872L;
+	
+	private ManifestModel manifestModel;
+	
+	public SaveAsUnitOfLearningAction(ManifestModel manifestModel){
+		super(Bundle.getString("menu.saveas"));
+		this.manifestModel = manifestModel;
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		try {
+			
+			File manifestFile = getManifestFile();
+			
+			if(manifestFile == null){
+				return;
+			}
+			manifestModel.setManifestFile(manifestFile);
+			ManifestUtil.saveManifestInXML(manifestFile, 
+					manifestModel.getManifest(),
+					manifestModel.getLearningDesignModel().getLearningDesign());
+			GraphUtil.saveGraphInFile(manifestModel.getGraphFile(), 
+					(Node)manifestModel.getLearningDesignModel().getGraph().getXML());
+			Preferences.getProperties().setProperty("preferences.diretory", manifestFile.getParent());
+		
+		} catch (Exception e1) {
+			JOptionPane.showMessageDialog(Authoring.getInstance(), 
+					Bundle.getString("error.cannotsavefile"), 
+					Bundle.getString("error.error"), JOptionPane.ERROR_MESSAGE);
+			e1.printStackTrace();
+		}
+	}
+
+	private File getManifestFile() throws IOException {
+		
+		JFileChooser fileChooser;
+		String directory = (String) Preferences.getProperties().get("preferences.diretory");
+		
+		if(directory != null && !directory.equals("")){
+			fileChooser = new LearningDesignFileChooser(new File(directory));
+		} else {
+			fileChooser = new LearningDesignFileChooser();
+		}
+		
+		int returnValue = fileChooser.showSaveDialog(Authoring.getInstance());
+		
+		if(returnValue != JFileChooser.APPROVE_OPTION || fileChooser.getSelectedFile() == null ){
+			return null;
+		}
+		
+		File file = fileChooser.getSelectedFile();
+		
+		File manifestFile = null;
+		
+		if(file.isDirectory()){
+			manifestFile = createManifestFile(file);
+		} else {
+			if(!file.getName().equalsIgnoreCase("imsmanifest.xml")){
+				JOptionPane.showMessageDialog(Authoring.getInstance(), 
+						Bundle.getString("error.choosemanifest"), 
+						Bundle.getString("error.error"), JOptionPane.ERROR_MESSAGE);
+				return null;
+			}
+			manifestFile = file;
+		}
+		return manifestFile;
+	}
+
+	private File createManifestFile(File file) throws IOException {
+		File manifest = new File(file, "imsmanifest.xml");
+		if(!manifest.exists()){
+			manifest.createNewFile();
+		}
+		return manifest;
+	}
+}

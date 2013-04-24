@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tidia/!svn/ver/143/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action
+END
+EditObjectivesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/EditObjectivesAction.java
+END
+SaveUnitOfLearningAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/tidia/!svn/ver/143/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/SaveUnitOfLearningAction.java
+END
+AddActivityStructureAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tidia/!svn/ver/142/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/AddActivityStructureAction.java
+END
+OpenUnitOfLearningAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/OpenUnitOfLearningAction.java
+END
+SaveAsUnitOfLearningAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/tidia/!svn/ver/143/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/SaveAsUnitOfLearningAction.java
+END
+EditPrerequisitesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/tidia/!svn/ver/62/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/EditPrerequisitesAction.java
+END
+EditUnitOfLearningTitleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/tidia/!svn/ver/77/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/EditUnitOfLearningTitleAction.java
+END
+AddPlayAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/AddPlayAction.java
+END
+EditCompleteUoLAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tidia/!svn/ver/72/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/EditCompleteUoLAction.java
+END
+NewUnitOfLearningAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/tidia/!svn/ver/143/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/NewUnitOfLearningAction.java
+END
+AddActAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tidia/!svn/ver/96/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/menu/action/AddActAction.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils
+END
+GraphUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/GraphUtil.java
+END
+Preferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/Preferences.java
+END
+ManifestUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/ManifestUtil.java
+END
+SwingUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tidia/!svn/ver/53/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/SwingUtil.java
+END
+Bundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/Bundle.java
+END
+LearningDesignUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/LearningDesignUtils.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tidia/!svn/ver/131/projects/authoring/trunk/code/authoring/src/main/java/org/sakaiproject/authoring/utils/FileUtil.java
+END

@@ -1,0 +1,86 @@
+package org.sakaiproject.authoring.combobox;
+
+import java.util.List;
+
+import javax.swing.DefaultComboBoxModel;
+
+public class ComboBoxModel extends DefaultComboBoxModel {
+	
+
+	private static final long serialVersionUID = -3093245356084016158L;
+	
+	public List<Object> objectList;
+	
+	public ComboBoxModel(List<Object> objectList){
+		super(objectList.toArray());
+		this.objectList = objectList;
+	}
+	
+	 
+	public Object getElementAt(int index) {
+		if(objectList == null){
+			return null;
+		}
+		Object object = objectList.get(index);
+		try {
+			return object.getClass().getMethod("getTitle").invoke(object);
+		} catch (Exception e) {
+			return null;
+		}
+	}
+	
+	 
+	public void setSelectedItem(Object anObject) {
+		try{
+			int index = 0;
+			for(int i = 0; i < objectList.size(); i++){
+				Object object = objectList.get(i);
+				String title = (String) object.getClass().getMethod("getTitle").invoke(object);
+				String selectedTitle = (String) anObject;
+				if(title.equals(selectedTitle)){
+					index = i;
+					break;
+				}
+			}
+			
+			super.setSelectedItem(objectList.get(index));
+		} catch(Exception e){
+			e.printStackTrace();
+		}	
+	}
+	
+	 
+	public Object getSelectedItem() {
+		Object object = super.getSelectedItem();
+		try {
+			return object.getClass().getMethod("getTitle").invoke(object);
+		} catch (Exception e) {
+			return null;
+		}
+	}
+	
+	public Object getObjectSelected(){
+		String selectedTitle = (String) getSelectedItem();
+		for(Object object : objectList){
+			if(getTitle(object).equals(selectedTitle)){
+				return object;
+			}
+		}
+		return null;
+	}
+	
+	private String getTitle(Object object){
+		try {
+			return (String) object.getClass().getMethod("getTitle").invoke(object);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public void setObjectSelected(Object object){
+		String title = getTitle(object);
+		setSelectedItem(title);
+	}
+	
+}

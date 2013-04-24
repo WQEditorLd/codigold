@@ -1,0 +1,29 @@
+package org.sakaiproject.authoring.menu.action;
+
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+
+import org.sakaiproject.authoring.dialog.CompleteUnitOfLearningDialog;
+import org.sakaiproject.authoring.model.LearningDesignModel;
+import org.sakaiproject.authoring.utils.Bundle;
+
+public class EditCompleteUoLAction extends AbstractAction {
+	
+	private static final long serialVersionUID = -7394692632572808314L;
+	
+	private LearningDesignModel learningDesignModel;
+	
+	public EditCompleteUoLAction(LearningDesignModel learningDesignModel){
+		super(Bundle.getString("menu.completemethod"));
+		this.learningDesignModel = learningDesignModel;
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		if(learningDesignModel.getLearningDesign() != null){
+			CompleteUnitOfLearningDialog dialog = new CompleteUnitOfLearningDialog(learningDesignModel.getPlayList());
+			dialog.setObject(learningDesignModel.getLearningDesign());
+			dialog.setVisible(true);
+		}
+	}	
+}

@@ -1,0 +1,59 @@
+package org.sakaiproject.authoring.table;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.imsglobal.jaxb.ld.RolePart;
+import org.sakaiproject.authoring.utils.Bundle;
+
+public class RolePartSelectionModel extends TableSelectionModel<RolePart> {
+
+	private static final long serialVersionUID = -7663163955060642920L;
+	
+	private boolean selectable;
+
+	public RolePartSelectionModel(List<RolePart> rolePartList) {
+		super(rolePartList, Bundle.getString("title.rolepart"));
+	}
+	
+	 
+	public Object getValueAt(int rowIndex, int columnIndex) {
+		if(columnIndex == 0){
+			return super.getValueAt(rowIndex, columnIndex);
+		} else {
+			RolePart rolePart = objectList.get(rowIndex);
+			String roleTitle = getTitle(rolePart.getRoleRef().getRef());
+			String activityTitle = getTitle(getActivity(rolePart));
+			return " " + roleTitle + " - " + activityTitle;
+		}
+		
+	}
+
+	private Object getActivity(RolePart rolePart) {
+		if(rolePart.getLearningActivityRef() != null){
+			return rolePart.getLearningActivityRef().getRef();
+		}
+		if(rolePart.getSupportActivityRef() != null){
+			return rolePart.getSupportActivityRef().getRef();
+		}
+		if(rolePart.getActivityStructureRef() != null){
+			return rolePart.getActivityStructureRef().getRef();
+		}
+		return null;
+	}
+
+
+	public void setSelectable(boolean selectable) {
+		this.selectable = selectable;
+	}
+	
+	
+	 
+	public List<RolePart> getObjectsSelected() {
+		if(!selectable){
+			return new ArrayList<RolePart>();
+		}
+		return super.getObjectsSelected();
+	}
+
+}

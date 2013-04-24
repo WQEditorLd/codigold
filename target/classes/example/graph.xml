@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel>
+	<root>
+		<mxCell id="0" />
+		<mxCell id="1" parent="0" />
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			collapsed="1" id="2"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Play as="value"
+				identifier="Play44169" title="curso">
+				<Array as="actList">
+					<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+						title="aula 1">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart20463">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="gerente" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity0" title="aula gerencial 1">
+										<Array as="environmentRefList">
+											<org.imsglobal.jaxb.ld.EnvironmentRef>
+												<org.imsglobal.jaxb.ld.Environment
+													as="ref" identifier="Environment0" title="gerencial 1">
+													<Array as="learningObjectOrServiceOrEnvironmentRef">
+														<org.imsglobal.jaxb.ld.LearningObject
+															title="Livro Liderança" />
+													</Array>
+												</org.imsglobal.jaxb.ld.Environment>
+											</org.imsglobal.jaxb.ld.EnvironmentRef>
+										</Array>
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart8683">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role1" title="tecnico" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity1" title="aula tecnica 1">
+										<Array as="environmentRefList">
+											<org.imsglobal.jaxb.ld.EnvironmentRef>
+												<org.imsglobal.jaxb.ld.Environment
+													as="ref" identifier="Environment1" title="tecnico 1">
+													<Array as="learningObjectOrServiceOrEnvironmentRef">
+														<org.imsglobal.jaxb.ld.LearningObject
+															title="Gerenciamento Tempo" />
+													</Array>
+												</org.imsglobal.jaxb.ld.Environment>
+											</org.imsglobal.jaxb.ld.EnvironmentRef>
+										</Array>
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+					<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+						title="aula 2">
+						<Array as="rolePartList">
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart84935">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role0" title="gerente" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity2" title="aula gerencial 2">
+										<Array as="environmentRefList">
+											<org.imsglobal.jaxb.ld.EnvironmentRef>
+												<org.imsglobal.jaxb.ld.Environment
+													as="ref" identifier="Environment2" title="gerencial 2">
+													<Array as="learningObjectOrServiceOrEnvironmentRef">
+														<org.imsglobal.jaxb.ld.LearningObject
+															title="Comunicação" />
+													</Array>
+												</org.imsglobal.jaxb.ld.Environment>
+											</org.imsglobal.jaxb.ld.EnvironmentRef>
+										</Array>
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+							<org.imsglobal.jaxb.ld.RolePart
+								identifier="RolePart26889">
+								<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+									<org.imsglobal.jaxb.ld.Learner
+										as="ref" identifier="Role1" title="tecnico" />
+								</org.imsglobal.jaxb.ld.RoleRef>
+								<org.imsglobal.jaxb.ld.LearningActivityRef
+									as="learningActivityRef">
+									<org.imsglobal.jaxb.ld.LearningActivity
+										as="ref" identifier="Activity3" title="aula tecnica 2">
+										<Array as="environmentRefList">
+											<org.imsglobal.jaxb.ld.EnvironmentRef>
+												<org.imsglobal.jaxb.ld.Environment
+													as="ref" identifier="Environment3" title="tecnico 2">
+													<Array as="learningObjectOrServiceOrEnvironmentRef">
+														<org.imsglobal.jaxb.ld.LearningObject
+															title="Trabalho em grupo" />
+													</Array>
+												</org.imsglobal.jaxb.ld.Environment>
+											</org.imsglobal.jaxb.ld.EnvironmentRef>
+										</Array>
+										<org.imsglobal.jaxb.ld.ItemModel
+											as="activityDescription" title="Descricao" />
+										<org.imsglobal.jaxb.ld.CompleteActivity
+											as="completeActivity">
+											<org.imsglobal.jaxb.ld.UserChoice
+												as="userChoice" />
+										</org.imsglobal.jaxb.ld.CompleteActivity>
+									</org.imsglobal.jaxb.ld.LearningActivity>
+								</org.imsglobal.jaxb.ld.LearningActivityRef>
+							</org.imsglobal.jaxb.ld.RolePart>
+						</Array>
+					</org.imsglobal.jaxb.ld.Act>
+				</Array>
+			</org.imsglobal.jaxb.ld.Play>
+			<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+				y="140.0">
+				<mxRectangle as="alternateBounds" height="230.0" width="549.0"
+					x="100.0" y="140.0" />
+			</mxGeometry>
+			<mxCell as="parent" id="1" parent="0" />
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			collapsed="1" id="3"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Act as="value"
+				identifier="Act14566" title="aula 1">
+				<Array as="rolePartList">
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart20463">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role0" title="gerente" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity0" title="aula gerencial 1">
+								<Array as="environmentRefList">
+									<org.imsglobal.jaxb.ld.EnvironmentRef>
+										<org.imsglobal.jaxb.ld.Environment
+											as="ref" identifier="Environment0" title="gerencial 1">
+											<Array as="learningObjectOrServiceOrEnvironmentRef">
+												<org.imsglobal.jaxb.ld.LearningObject
+													title="Livro Liderança" />
+											</Array>
+										</org.imsglobal.jaxb.ld.Environment>
+									</org.imsglobal.jaxb.ld.EnvironmentRef>
+								</Array>
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart8683">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role1" title="tecnico" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity1" title="aula tecnica 1">
+								<Array as="environmentRefList">
+									<org.imsglobal.jaxb.ld.EnvironmentRef>
+										<org.imsglobal.jaxb.ld.Environment
+											as="ref" identifier="Environment1" title="tecnico 1">
+											<Array as="learningObjectOrServiceOrEnvironmentRef">
+												<org.imsglobal.jaxb.ld.LearningObject
+													title="Gerenciamento Tempo" />
+											</Array>
+										</org.imsglobal.jaxb.ld.Environment>
+									</org.imsglobal.jaxb.ld.EnvironmentRef>
+								</Array>
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+				</Array>
+			</org.imsglobal.jaxb.ld.Act>
+			<mxGeometry as="geometry" height="80.0" width="79.0" x="60.0"
+				y="60.000000000000114">
+				<mxRectangle as="alternateBounds" height="405.0" width="355.0"
+					x="60.0" y="30.000000000000114" />
+			</mxGeometry>
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="2"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Play as="value"
+					identifier="Play44169" title="curso">
+					<Array as="actList">
+						<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+							title="aula 1">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart20463">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="gerente" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity0" title="aula gerencial 1">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment0" title="gerencial 1">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Livro Liderança" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart8683">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role1" title="tecnico" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity1" title="aula tecnica 1">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment1" title="tecnico 1">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Gerenciamento Tempo" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+						<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+							title="aula 2">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart84935">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="gerente" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity2" title="aula gerencial 2">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment2" title="gerencial 2">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Comunicação" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart26889">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role1" title="tecnico" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity3" title="aula tecnica 2">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment3" title="tecnico 2">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Trabalho em grupo" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+					</Array>
+				</org.imsglobal.jaxb.ld.Play>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+					y="140.0">
+					<mxRectangle as="alternateBounds" height="230.0" width="549.0"
+						x="100.0" y="140.0" />
+				</mxGeometry>
+				<mxCell as="parent" id="1" parent="0" />
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="4"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="gerente" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="70.0"
+				y="59.999999999999886" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="3"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act14566" title="aula 1">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart20463">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="aula gerencial 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment0" title="gerencial 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Livro Liderança" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart8683">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="aula tecnica 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment1" title="tecnico 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Gerenciamento Tempo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="60.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="405.0" width="355.0"
+						x="60.0" y="30.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="5"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role1" title="tecnico" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="220.0"
+				y="59.999999999999886" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="3"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act14566" title="aula 1">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart20463">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="aula gerencial 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment0" title="gerencial 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Livro Liderança" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart8683">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="aula tecnica 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment1" title="tecnico 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Gerenciamento Tempo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="60.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="405.0" width="355.0"
+						x="60.0" y="30.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="6"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity0" title="aula gerencial 1">
+				<Array as="environmentRefList">
+					<org.imsglobal.jaxb.ld.EnvironmentRef>
+						<org.imsglobal.jaxb.ld.Environment
+							as="ref" identifier="Environment0" title="gerencial 1">
+							<Array as="learningObjectOrServiceOrEnvironmentRef">
+								<org.imsglobal.jaxb.ld.LearningObject
+									title="Livro Liderança">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item title="Itens-26">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Itens-26-.txt" identifier="Itens-26-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Itens-26-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.LearningObject>
+							</Array>
+						</org.imsglobal.jaxb.ld.Environment>
+					</org.imsglobal.jaxb.ld.EnvironmentRef>
+				</Array>
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item title="Descricao-1">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Activity0-Descricao-1-.txt" identifier="Activity0-Descricao-1-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Activity0-Descricao-1-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="229.9999999999999" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="3"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act14566" title="aula 1">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart20463">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="aula gerencial 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment0" title="gerencial 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Livro Liderança" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart8683">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="aula tecnica 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment1" title="tecnico 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Gerenciamento Tempo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="60.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="405.0" width="355.0"
+						x="60.0" y="30.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="7"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity1" title="aula tecnica 1">
+				<Array as="environmentRefList">
+					<org.imsglobal.jaxb.ld.EnvironmentRef>
+						<org.imsglobal.jaxb.ld.Environment
+							as="ref" identifier="Environment1" title="tecnico 1">
+							<Array as="learningObjectOrServiceOrEnvironmentRef">
+								<org.imsglobal.jaxb.ld.LearningObject
+									title="Gerenciamento Tempo">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item title="Itens-288">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Itens-288-.txt" identifier="Itens-288-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Itens-288-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.LearningObject>
+							</Array>
+						</org.imsglobal.jaxb.ld.Environment>
+					</org.imsglobal.jaxb.ld.EnvironmentRef>
+				</Array>
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item title="Descricao-1">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Activity1-Descricao-1-.txt" identifier="Activity1-Descricao-1-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Activity1-Descricao-1-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="170.0"
+				y="269.9999999999999" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="3"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act14566" title="aula 1">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart20463">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity0" title="aula gerencial 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment0" title="gerencial 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Livro Liderança" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart8683">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity1" title="aula tecnica 1">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment1" title="tecnico 1">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Gerenciamento Tempo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="60.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="405.0" width="355.0"
+						x="60.0" y="30.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="10" parent="3" source="4"
+			style="shape=connector;endArrow=classic" target="6" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="11" parent="3" source="5"
+			style="shape=connector;endArrow=classic" target="7" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			collapsed="1" id="12"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Act as="value"
+				identifier="Act3924" title="aula 2">
+				<Array as="rolePartList">
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart84935">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role0" title="gerente" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity2" title="aula gerencial 2">
+								<Array as="environmentRefList">
+									<org.imsglobal.jaxb.ld.EnvironmentRef>
+										<org.imsglobal.jaxb.ld.Environment
+											as="ref" identifier="Environment2" title="gerencial 2">
+											<Array as="learningObjectOrServiceOrEnvironmentRef">
+												<org.imsglobal.jaxb.ld.LearningObject
+													title="Comunicação" />
+											</Array>
+										</org.imsglobal.jaxb.ld.Environment>
+									</org.imsglobal.jaxb.ld.EnvironmentRef>
+								</Array>
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+					<org.imsglobal.jaxb.ld.RolePart
+						identifier="RolePart26889">
+						<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+							<org.imsglobal.jaxb.ld.Learner as="ref"
+								identifier="Role1" title="tecnico" />
+						</org.imsglobal.jaxb.ld.RoleRef>
+						<org.imsglobal.jaxb.ld.LearningActivityRef
+							as="learningActivityRef">
+							<org.imsglobal.jaxb.ld.LearningActivity
+								as="ref" identifier="Activity3" title="aula tecnica 2">
+								<Array as="environmentRefList">
+									<org.imsglobal.jaxb.ld.EnvironmentRef>
+										<org.imsglobal.jaxb.ld.Environment
+											as="ref" identifier="Environment3" title="tecnico 2">
+											<Array as="learningObjectOrServiceOrEnvironmentRef">
+												<org.imsglobal.jaxb.ld.LearningObject
+													title="Trabalho em grupo" />
+											</Array>
+										</org.imsglobal.jaxb.ld.Environment>
+									</org.imsglobal.jaxb.ld.EnvironmentRef>
+								</Array>
+								<org.imsglobal.jaxb.ld.ItemModel
+									as="activityDescription" title="Descricao" />
+								<org.imsglobal.jaxb.ld.CompleteActivity
+									as="completeActivity">
+									<org.imsglobal.jaxb.ld.UserChoice
+										as="userChoice" />
+								</org.imsglobal.jaxb.ld.CompleteActivity>
+							</org.imsglobal.jaxb.ld.LearningActivity>
+						</org.imsglobal.jaxb.ld.LearningActivityRef>
+					</org.imsglobal.jaxb.ld.RolePart>
+				</Array>
+			</org.imsglobal.jaxb.ld.Act>
+			<mxGeometry as="geometry" height="80.0" width="79.0" x="410.0"
+				y="60.000000000000114">
+				<mxRectangle as="alternateBounds" height="355.0" width="375.0"
+					x="410.0" y="60.000000000000114" />
+			</mxGeometry>
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="2"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Play as="value"
+					identifier="Play44169" title="curso">
+					<Array as="actList">
+						<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+							title="aula 1">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart20463">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="gerente" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity0" title="aula gerencial 1">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment0" title="gerencial 1">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Livro Liderança" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart8683">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role1" title="tecnico" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity1" title="aula tecnica 1">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment1" title="tecnico 1">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Gerenciamento Tempo" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+						<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+							title="aula 2">
+							<Array as="rolePartList">
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart84935">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role0" title="gerente" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity2" title="aula gerencial 2">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment2" title="gerencial 2">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Comunicação" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+								<org.imsglobal.jaxb.ld.RolePart
+									identifier="RolePart26889">
+									<org.imsglobal.jaxb.ld.RoleRef
+										as="roleRef">
+										<org.imsglobal.jaxb.ld.Learner
+											as="ref" identifier="Role1" title="tecnico" />
+									</org.imsglobal.jaxb.ld.RoleRef>
+									<org.imsglobal.jaxb.ld.LearningActivityRef
+										as="learningActivityRef">
+										<org.imsglobal.jaxb.ld.LearningActivity
+											as="ref" identifier="Activity3" title="aula tecnica 2">
+											<Array as="environmentRefList">
+												<org.imsglobal.jaxb.ld.EnvironmentRef>
+													<org.imsglobal.jaxb.ld.Environment
+														as="ref" identifier="Environment3" title="tecnico 2">
+														<Array as="learningObjectOrServiceOrEnvironmentRef">
+															<org.imsglobal.jaxb.ld.LearningObject
+																title="Trabalho em grupo" />
+														</Array>
+													</org.imsglobal.jaxb.ld.Environment>
+												</org.imsglobal.jaxb.ld.EnvironmentRef>
+											</Array>
+											<org.imsglobal.jaxb.ld.ItemModel
+												as="activityDescription" title="Descricao" />
+											<org.imsglobal.jaxb.ld.CompleteActivity
+												as="completeActivity">
+												<org.imsglobal.jaxb.ld.UserChoice
+													as="userChoice" />
+											</org.imsglobal.jaxb.ld.CompleteActivity>
+										</org.imsglobal.jaxb.ld.LearningActivity>
+									</org.imsglobal.jaxb.ld.LearningActivityRef>
+								</org.imsglobal.jaxb.ld.RolePart>
+							</Array>
+						</org.imsglobal.jaxb.ld.Act>
+					</Array>
+				</org.imsglobal.jaxb.ld.Play>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+					y="140.0">
+					<mxRectangle as="alternateBounds" height="230.0" width="549.0"
+						x="100.0" y="140.0" />
+				</mxGeometry>
+				<mxCell as="parent" id="1" parent="0" />
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="13"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role0" title="gerente" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="90.0"
+				y="59.999999999999886" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="12"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act3924" title="aula 2">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart84935">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity2" title="aula gerencial 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment2" title="gerencial 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Comunicação" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart26889">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity3" title="aula tecnica 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment3" title="tecnico 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Trabalho em grupo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="410.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="355.0" width="375.0"
+						x="410.0" y="60.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="14"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learner.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.Learner as="value"
+				identifier="Role1" title="tecnico" />
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="210.0"
+				y="59.999999999999886" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="12"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act3924" title="aula 2">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart84935">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity2" title="aula gerencial 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment2" title="gerencial 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Comunicação" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart26889">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity3" title="aula tecnica 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment3" title="tecnico 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Trabalho em grupo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="410.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="355.0" width="375.0"
+						x="410.0" y="60.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="15"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity2" title="aula gerencial 2">
+				<Array as="environmentRefList">
+					<org.imsglobal.jaxb.ld.EnvironmentRef>
+						<org.imsglobal.jaxb.ld.Environment
+							as="ref" identifier="Environment4" title="jogo gerencial">
+							<Array as="learningObjectOrServiceOrEnvironmentRef">
+								<org.imsglobal.jaxb.ld.Service>
+									<org.imsglobal.jaxb.ld.GameService
+										as="gameService" gameUse="Individual" title="Jogo Gerencial">
+										<Array as="gameItemList">
+											<org.imsglobal.jaxb.ld.GameItem
+												gameLevel="Begginer">
+												<org.imsglobal.jaxb.ld.Item as="item"
+													title="colors-glossary.xml">
+													<org.imsglobal.jaxb.content.Resource
+														as="identifierref" href="colors-glossary.xml" identifier="colors-glossary.xml"
+														type="webcontent">
+														<Array as="fileList">
+															<org.imsglobal.jaxb.content.File
+																href="colors-glossary.xml" />
+														</Array>
+													</org.imsglobal.jaxb.content.Resource>
+												</org.imsglobal.jaxb.ld.Item>
+											</org.imsglobal.jaxb.ld.GameItem>
+											<org.imsglobal.jaxb.ld.GameItem
+												gameLevel="Intermediate">
+												<org.imsglobal.jaxb.ld.Item as="item"
+													title="colors-glossary.xml">
+													<org.imsglobal.jaxb.content.Resource
+														as="identifierref" href="colors-glossary.xml" identifier="colors-glossary.xml"
+														type="webcontent">
+														<Array as="fileList">
+															<org.imsglobal.jaxb.content.File
+																href="colors-glossary.xml" />
+														</Array>
+													</org.imsglobal.jaxb.content.Resource>
+												</org.imsglobal.jaxb.ld.Item>
+											</org.imsglobal.jaxb.ld.GameItem>
+											<org.imsglobal.jaxb.ld.GameItem
+												gameLevel="Advanced">
+												<org.imsglobal.jaxb.ld.Item as="item"
+													title="colors-glossary.xml">
+													<org.imsglobal.jaxb.content.Resource
+														as="identifierref" href="colors-glossary.xml" identifier="colors-glossary.xml"
+														type="webcontent">
+														<Array as="fileList">
+															<org.imsglobal.jaxb.content.File
+																href="colors-glossary.xml" />
+														</Array>
+													</org.imsglobal.jaxb.content.Resource>
+												</org.imsglobal.jaxb.ld.Item>
+											</org.imsglobal.jaxb.ld.GameItem>
+										</Array>
+										<org.imsglobal.jaxb.ld.GamePerformance
+											aboveAverage="75" as="gamePerformance" average="50" />
+										<Array as="didaticKit">
+											<org.imsglobal.jaxb.ld.DidaticItem
+												answer="a, b, c, d" gameLevel="Advanced">
+												<org.imsglobal.jaxb.ld.Item as="item"
+													title="Comprovante_20091104.PDF">
+													<org.imsglobal.jaxb.content.Resource
+														as="identifierref" href="Comprovante_20091104.PDF"
+														identifier="Comprovante_20091104.PDF" type="webcontent">
+														<Array as="fileList">
+															<org.imsglobal.jaxb.content.File
+																href="Comprovante_20091104.PDF" />
+														</Array>
+													</org.imsglobal.jaxb.content.Resource>
+												</org.imsglobal.jaxb.ld.Item>
+											</org.imsglobal.jaxb.ld.DidaticItem>
+										</Array>
+									</org.imsglobal.jaxb.ld.GameService>
+								</org.imsglobal.jaxb.ld.Service>
+							</Array>
+						</org.imsglobal.jaxb.ld.Environment>
+					</org.imsglobal.jaxb.ld.EnvironmentRef>
+				</Array>
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item title="Descricao-1">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Activity2-Descricao-1-.txt" identifier="Activity2-Descricao-1-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Activity2-Descricao-1-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="60.0"
+				y="219.9999999999999" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="12"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act3924" title="aula 2">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart84935">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity2" title="aula gerencial 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment2" title="gerencial 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Comunicação" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart26889">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity3" title="aula tecnica 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment3" title="tecnico 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Trabalho em grupo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="410.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="355.0" width="375.0"
+						x="410.0" y="60.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<org.sakaiproject.authoring.jgraphx.AuthoringCell
+			id="16"
+			style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/learning_activity.png"
+			vertex="1">
+			<org.imsglobal.jaxb.ld.LearningActivity
+				as="value" identifier="Activity3" title="aula tecnica 2">
+				<Array as="environmentRefList">
+					<org.imsglobal.jaxb.ld.EnvironmentRef>
+						<org.imsglobal.jaxb.ld.Environment
+							as="ref" identifier="Environment3" title="tecnico 2">
+							<Array as="learningObjectOrServiceOrEnvironmentRef">
+								<org.imsglobal.jaxb.ld.LearningObject
+									title="Trabalho em grupo">
+									<Array as="itemList">
+										<org.imsglobal.jaxb.ld.Item title="Itens-181">
+											<org.imsglobal.jaxb.content.Resource
+												as="identifierref" href="Itens-181-.txt" identifier="Itens-181-.txt"
+												type="webcontent">
+												<Array as="fileList">
+													<org.imsglobal.jaxb.content.File
+														href="Itens-181-.txt" />
+												</Array>
+											</org.imsglobal.jaxb.content.Resource>
+										</org.imsglobal.jaxb.ld.Item>
+									</Array>
+								</org.imsglobal.jaxb.ld.LearningObject>
+							</Array>
+						</org.imsglobal.jaxb.ld.Environment>
+					</org.imsglobal.jaxb.ld.EnvironmentRef>
+				</Array>
+				<org.imsglobal.jaxb.ld.ItemModel as="activityDescription"
+					title="Descricao">
+					<Array as="itemList">
+						<org.imsglobal.jaxb.ld.Item title="Descricao-1">
+							<org.imsglobal.jaxb.content.Resource
+								as="identifierref" href="Activity3-Descricao-1-.txt" identifier="Activity3-Descricao-1-.txt"
+								type="webcontent">
+								<Array as="fileList">
+									<org.imsglobal.jaxb.content.File
+										href="Activity3-Descricao-1-.txt" />
+								</Array>
+							</org.imsglobal.jaxb.content.Resource>
+						</org.imsglobal.jaxb.ld.Item>
+					</Array>
+				</org.imsglobal.jaxb.ld.ItemModel>
+				<org.imsglobal.jaxb.ld.CompleteActivity
+					as="completeActivity">
+					<org.imsglobal.jaxb.ld.UserChoice
+						as="userChoice" />
+				</org.imsglobal.jaxb.ld.CompleteActivity>
+			</org.imsglobal.jaxb.ld.LearningActivity>
+			<mxGeometry as="geometry" height="75.0" width="75.0" x="240.0"
+				y="219.9999999999999" />
+			<org.sakaiproject.authoring.jgraphx.AuthoringCell
+				as="parent" collapsed="1" id="12"
+				style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/act.png"
+				vertex="1">
+				<org.imsglobal.jaxb.ld.Act as="value"
+					identifier="Act3924" title="aula 2">
+					<Array as="rolePartList">
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart84935">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role0" title="gerente" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity2" title="aula gerencial 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment2" title="gerencial 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Comunicação" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+						<org.imsglobal.jaxb.ld.RolePart
+							identifier="RolePart26889">
+							<org.imsglobal.jaxb.ld.RoleRef as="roleRef">
+								<org.imsglobal.jaxb.ld.Learner as="ref"
+									identifier="Role1" title="tecnico" />
+							</org.imsglobal.jaxb.ld.RoleRef>
+							<org.imsglobal.jaxb.ld.LearningActivityRef
+								as="learningActivityRef">
+								<org.imsglobal.jaxb.ld.LearningActivity
+									as="ref" identifier="Activity3" title="aula tecnica 2">
+									<Array as="environmentRefList">
+										<org.imsglobal.jaxb.ld.EnvironmentRef>
+											<org.imsglobal.jaxb.ld.Environment
+												as="ref" identifier="Environment3" title="tecnico 2">
+												<Array as="learningObjectOrServiceOrEnvironmentRef">
+													<org.imsglobal.jaxb.ld.LearningObject
+														title="Trabalho em grupo" />
+												</Array>
+											</org.imsglobal.jaxb.ld.Environment>
+										</org.imsglobal.jaxb.ld.EnvironmentRef>
+									</Array>
+									<org.imsglobal.jaxb.ld.ItemModel
+										as="activityDescription" title="Descricao" />
+									<org.imsglobal.jaxb.ld.CompleteActivity
+										as="completeActivity">
+										<org.imsglobal.jaxb.ld.UserChoice
+											as="userChoice" />
+									</org.imsglobal.jaxb.ld.CompleteActivity>
+								</org.imsglobal.jaxb.ld.LearningActivity>
+							</org.imsglobal.jaxb.ld.LearningActivityRef>
+						</org.imsglobal.jaxb.ld.RolePart>
+					</Array>
+				</org.imsglobal.jaxb.ld.Act>
+				<mxGeometry as="geometry" height="80.0" width="79.0" x="410.0"
+					y="60.000000000000114">
+					<mxRectangle as="alternateBounds" height="355.0" width="375.0"
+						x="410.0" y="60.000000000000114" />
+				</mxGeometry>
+				<org.sakaiproject.authoring.jgraphx.AuthoringCell
+					as="parent" collapsed="1" id="2"
+					style="verticalLabelPosition=bottom;perimeter=rhombusPerimeter;fontSize=20;fontColor=#000000;shape=image;image=/images/play.png"
+					vertex="1">
+					<org.imsglobal.jaxb.ld.Play as="value"
+						identifier="Play44169" title="curso">
+						<Array as="actList">
+							<org.imsglobal.jaxb.ld.Act identifier="Act14566"
+								title="aula 1">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart20463">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity0" title="aula gerencial 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment0" title="gerencial 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Livro Liderança" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart8683">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity1" title="aula tecnica 1">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment1" title="tecnico 1">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Gerenciamento Tempo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+							<org.imsglobal.jaxb.ld.Act identifier="Act3924"
+								title="aula 2">
+								<Array as="rolePartList">
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart84935">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role0" title="gerente" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity2" title="aula gerencial 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment2" title="gerencial 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Comunicação" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+									<org.imsglobal.jaxb.ld.RolePart
+										identifier="RolePart26889">
+										<org.imsglobal.jaxb.ld.RoleRef
+											as="roleRef">
+											<org.imsglobal.jaxb.ld.Learner
+												as="ref" identifier="Role1" title="tecnico" />
+										</org.imsglobal.jaxb.ld.RoleRef>
+										<org.imsglobal.jaxb.ld.LearningActivityRef
+											as="learningActivityRef">
+											<org.imsglobal.jaxb.ld.LearningActivity
+												as="ref" identifier="Activity3" title="aula tecnica 2">
+												<Array as="environmentRefList">
+													<org.imsglobal.jaxb.ld.EnvironmentRef>
+														<org.imsglobal.jaxb.ld.Environment
+															as="ref" identifier="Environment3" title="tecnico 2">
+															<Array as="learningObjectOrServiceOrEnvironmentRef">
+																<org.imsglobal.jaxb.ld.LearningObject
+																	title="Trabalho em grupo" />
+															</Array>
+														</org.imsglobal.jaxb.ld.Environment>
+													</org.imsglobal.jaxb.ld.EnvironmentRef>
+												</Array>
+												<org.imsglobal.jaxb.ld.ItemModel
+													as="activityDescription" title="Descricao" />
+												<org.imsglobal.jaxb.ld.CompleteActivity
+													as="completeActivity">
+													<org.imsglobal.jaxb.ld.UserChoice
+														as="userChoice" />
+												</org.imsglobal.jaxb.ld.CompleteActivity>
+											</org.imsglobal.jaxb.ld.LearningActivity>
+										</org.imsglobal.jaxb.ld.LearningActivityRef>
+									</org.imsglobal.jaxb.ld.RolePart>
+								</Array>
+							</org.imsglobal.jaxb.ld.Act>
+						</Array>
+					</org.imsglobal.jaxb.ld.Play>
+					<mxGeometry as="geometry" height="80.0" width="79.0" x="100.0"
+						y="140.0">
+						<mxRectangle as="alternateBounds" height="230.0"
+							width="549.0" x="100.0" y="140.0" />
+					</mxGeometry>
+					<mxCell as="parent" id="1" parent="0" />
+				</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+			</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		</org.sakaiproject.authoring.jgraphx.AuthoringCell>
+		<mxCell edge="1" id="17" parent="12" source="13"
+			style="shape=connector;endArrow=classic" target="15" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="18" parent="12" source="14"
+			style="shape=connector;endArrow=classic" target="16" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+		<mxCell edge="1" id="19" parent="2" source="3"
+			style="shape=connector;endArrow=classic" target="12" value="">
+			<mxGeometry as="geometry" relative="1" />
+		</mxCell>
+	</root>
+</mxGraphModel>

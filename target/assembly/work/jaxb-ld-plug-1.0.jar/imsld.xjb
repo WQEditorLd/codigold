@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="2.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" jxb:extensionBindingPrefixes="xjc"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">	
+	<jxb:bindings schemaLocation="imsld_plug_v1p0.xsd" node="/xsd:schema">	
+		<jxb:globalBindings>
+		   <xjc:serializable uid="12345"/>
+		</jxb:globalBindings>
+		<jxb:bindings node="//xsd:complexType[@name='activitiesType']">
+			<jxb:class name="Activities" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='activity-structureType']">
+			<jxb:class name="ActivityStructure" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='actType']">
+			<jxb:class name="Act" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='awayrenessType']">
+			<jxb:class name="Awayreness" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='actType']/xsd:sequence/xsd:element[@ref='role-part']">
+			<jxb:property name="rolePartList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='calculateType']">
+			<jxb:class name="Calculate" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='change-property-valueType']">
+			<jxb:class name="ChangePropertyValue" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-activityType']">
+			<jxb:class name="CompleteActivity" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-activityType']/xsd:choice/xsd:element[@ref='when-property-value-is-set']">
+			<jxb:property name="whenPropertyValueIsSetList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='itemType']/xsd:sequence/xsd:element[@ref='item']">
+			<jxb:property name="itemList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-actType']">
+			<jxb:class name="CompleteAct" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-actType']/xsd:choice/xsd:element[@ref='when-property-value-is-set']">
+			<jxb:property name="whenPropertyValueIsSetList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-actType']/xsd:choice/xsd:element[@ref='when-role-part-completed']">
+			<jxb:property name="whenRolePartCompletedList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-playType']">
+			<jxb:class name="CompletePlay" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-playType']/xsd:choice/xsd:element[@ref='when-property-value-is-set']">
+			<jxb:property name="whenPropertyValueIsSetList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='completeType']">
+			<jxb:class name="Complete" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-unit-of-learningType']">
+			<jxb:class name="CompleteUnitOfLearning" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-unit-of-learningType']/xsd:choice/xsd:element[@ref='when-property-value-is-set']">
+			<jxb:property name="whenPropertyValueIsSetList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='complete-unit-of-learningType']/xsd:choice/xsd:element[@ref='when-play-completed']">
+			<jxb:property name="whenPlayCompletedList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='componentsType']">
+			<jxb:class name="Components" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='conditionsType']">
+			<jxb:class name="Conditions" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='conferenceType']">
+			<jxb:class name="conference" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='conferenceType']/xsd:sequence/xsd:element[@ref='participant']">
+			<jxb:property name="participantList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='conferenceType']/xsd:sequence/xsd:element[@ref='observer']">
+			<jxb:property name="observerList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='didaticItemType']">
+			<jxb:class name="DidaticItem" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='elseType']">
+			<jxb:class name="Else" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='email-dataType']">
+			<jxb:class name="EmailData" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='environmentsType']">
+			<jxb:class name="Environments" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='environmentsType']/xsd:sequence/xsd:element[@ref='environment']">
+			<jxb:property name="environmentList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='environmentType']">
+			<jxb:class name="Environment" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='expressionType']">
+			<jxb:class name="Expression" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='extendType']">
+			<jxb:class name="Extend" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:group[@name='grp.property']/xsd:sequence/xsd:element[@ref='restriction']">
+			<jxb:property name="restrictionList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='global-propertyType']">
+			<jxb:class name="GlobalProperty" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='gameItemType']">
+			<jxb:class name="GameItem" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='game-serviceType']">
+			<jxb:class name="GameService" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='gamePerformanceType']">
+			<jxb:class name="GamePerformance" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='game-serviceType']/xsd:sequence/xsd:element[@ref='participant']">
+			<jxb:property name="participantList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='game-serviceType']/xsd:sequence/xsd:element[@ref='gameItem']">
+			<jxb:property name="gameItemList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='game-serviceType']/xsd:sequence/xsd:element[@ref='didaticItem']">
+			<jxb:property name="didaticKit" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='index-searchType']">
+			<jxb:class name="IndexSearch" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='indexType']">
+			<jxb:class name="Index" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='itemmodelType']">
+			<jxb:class name="ItemModel" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:group[@name='grp.itemmodel']/xsd:sequence/xsd:element[@ref='item']">
+			<jxb:property name="itemList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='itemType']">
+			<jxb:class name="Item" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learnerType']">
+			<jxb:class name="Learner" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learnerType']/xsd:sequence/xsd:element[@ref='learner']">
+			<jxb:property name="learnerList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learning-activityType']">
+			<jxb:class name="LearningActivity" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learning-activityType']/xsd:sequence/xsd:element[@ref='environment-ref']">
+			<jxb:property name="environmentRefList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learning-designType']">
+			<jxb:class name="LearningDesign" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='learning-objectType']">
+			<jxb:class name="LearningObject" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='methodType']">
+			<jxb:class name="Method" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='methodType']/xsd:sequence/xsd:element[@ref='play']">
+			<jxb:property name="playList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='methodType']/xsd:sequence/xsd:element[@ref='conditions']">
+			<jxb:property name="conditionsList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='monitorType']">
+			<jxb:class name="Monitor" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='notificationType']">
+			<jxb:class name="Notification" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='notificationType']/xsd:sequence/xsd:element[@ref='email-data']">
+			<jxb:property name="emailDataList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='no-valueType']">
+			<jxb:class name="NoValue" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='on-completionType']">
+			<jxb:class name="OnCompletion" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='operatorType']">
+			<jxb:class name="Operator" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='playType']">
+			<jxb:class name="Play" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='playType']/xsd:sequence/xsd:element[@ref='act']">
+			<jxb:property name="actList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='propertiesType']">
+			<jxb:class name="Properties" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='property-groupType']">
+			<jxb:class name="PropertyGroup" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='propertyType']">
+			<jxb:class name="Property" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='property-valueType']">
+			<jxb:class name="PropertyValue" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='role-partType']">
+			<jxb:class name="RolePart" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='rolepropertyType']">
+			<jxb:class name="RoleProperty" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='rolesType']">
+			<jxb:class name="Roles" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='rolesType']/xsd:sequence/xsd:element[@ref='learner']">
+			<jxb:property name="learnerList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='rolesType']/xsd:sequence/xsd:element[@ref='staff']">
+			<jxb:property name="staffList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='send-mailType']">
+			<jxb:class name="SendMail" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='send-mailType']/xsd:sequence/xsd:element[@ref='email-data']">
+			<jxb:property name="emailDataList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='serviceType']">
+			<jxb:class name="Service" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='show-hideType']">
+			<jxb:class name="ShowHide" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='staffType']">
+			<jxb:class name="Staff" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='sumType']">
+			<jxb:class name="Sum" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='staffType']/xsd:sequence/xsd:element[@ref='staff']">
+			<jxb:property name="staffList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='support-activityType']">
+			<jxb:class name="SupportActivity" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='support-activityType']/xsd:sequence/xsd:element[@ref='environment-ref']">
+			<jxb:property name="environmentRefList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='support-activityType']/xsd:sequence/xsd:element[@ref='role-ref']">
+			<jxb:property name="roleRefList" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='thenType']">
+			<jxb:class name="Then" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='users-in-roleType']">
+			<jxb:class name="UsersInRole" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='when-condition-trueType']">
+			<jxb:class name="WhenConditionTrue" />
+		</jxb:bindings>
+		<jxb:bindings node="//xsd:complexType[@name='when-property-value-is-setType']">
+			<jxb:class name="WhenPropertyValueIsSet" />
+		</jxb:bindings>
+		
+	</jxb:bindings>
+</jxb:bindings>

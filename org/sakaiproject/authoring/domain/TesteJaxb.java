@@ -1,0 +1,29 @@
+package org.sakaiproject.authoring.domain;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
+public class TesteJaxb {
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) throws Exception {
+		
+		File file = new File("teste.xml");
+		file.createNewFile();
+		
+		ObjectFactory factory = new ObjectFactory();
+		JAXBContext context = JAXBContext.newInstance("org.sakaiproject.authoring.domain");
+		
+		Marshaller marshaller = context.createMarshaller();
+		marshaller.marshal(factory.createLearningDesign(new LearningDesign()), file);
+		
+		File fileOpen = new File("imsmanifest.xml");
+		Unmarshaller unmarshaller = context.createUnmarshaller();
+		JAXBElement<LearningDesign> element = (JAXBElement<LearningDesign>) unmarshaller.unmarshal(fileOpen);
+		LearningDesign ld2 = element.getValue();
+		System.out.println(ld2);
+	}
+}

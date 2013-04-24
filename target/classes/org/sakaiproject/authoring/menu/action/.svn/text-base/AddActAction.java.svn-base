@@ -1,0 +1,95 @@
+package org.sakaiproject.authoring.menu.action;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.imsglobal.jaxb.ld.Act;
+import org.imsglobal.jaxb.ld.ActivityStructure;
+import org.imsglobal.jaxb.ld.ActivityStructureRef;
+import org.imsglobal.jaxb.ld.LearningActivity;
+import org.imsglobal.jaxb.ld.LearningActivityRef;
+import org.imsglobal.jaxb.ld.RolePart;
+import org.imsglobal.jaxb.ld.RoleRef;
+import org.imsglobal.jaxb.ld.SupportActivity;
+import org.imsglobal.jaxb.ld.SupportActivityRef;
+import org.sakaiproject.authoring.dialog.NameDialog;
+import org.sakaiproject.authoring.graph.Cell;
+import org.sakaiproject.authoring.graph.Graph;
+import org.sakaiproject.authoring.jgraphx.AuthoringCellFactory;
+import org.sakaiproject.authoring.utils.Bundle;
+import org.sakaiproject.authoring.utils.LearningDesignUtils;
+
+public class AddActAction implements ActionListener {
+
+	private Graph graph;
+
+	public AddActAction(Graph graph) {
+		this.graph = graph;
+	}
+
+	public void actionPerformed(ActionEvent evt) {
+
+		String name = new NameDialog(Bundle
+				.getString("title.act"), "").getName();
+
+		if (name == null || name.equals("")) {
+			return;
+		}
+
+		List<RolePart> roleParts = getRolePartsSelected();
+		
+		Act act = new Act();
+		act.setIdentifier("Act"+Integer.toString((int)(Math.random()*100000)));
+		act.setTitle(name);
+		act.getRolePartList().addAll(roleParts);
+		
+		groupCellsForAct(act);
+
+	}
+
+	
+	private List<RolePart> getRolePartsSelected() {
+		List<RolePart> rolePartList = new ArrayList<RolePart>();
+		for(Object edge : graph.getEdgesSelected()){
+			RolePart rolePart = new RolePart();
+			rolePart.setIdentifier("RolePart"+Integer.toString((int)(Math.random()*100000)));
+			addObjectToRolePart(rolePart, graph.getSourceVertex(edge).getObject());
+			addObjectToRolePart(rolePart, graph.getTargetVertex(edge).getObject());
+			rolePartList.add(rolePart);			
+		}
+		return rolePartList;
+	}
+
+	private void addObjectToRolePart(RolePart rolePart, Object object) {
+		
+		if(object instanceof LearningActivity){
+			LearningActivityRef ref = new LearningActivityRef();
+			ref.setRef(object);
+			rolePart.setLearningActivityRef(ref);
+		}
+		if(object instanceof SupportActivity){
+			SupportActivityRef ref = new SupportActivityRef();
+			ref.setRef(object);
+			rolePart.setSupportActivityRef(ref);
+		}
+		if(object instanceof ActivityStructure){
+			ActivityStructureRef ref = new ActivityStructureRef();
+			ref.setRef(object);
+			rolePart.setActivityStructureRef(ref);
+		}
+		if(LearningDesignUtils.isRole(object)){
+			RoleRef ref = new RoleRef();
+			ref.setRef(object);
+			rolePart.setRoleRef(ref);
+		}
+		
+	}
+
+	public void groupCellsForAct(Act act){
+		Cell cell = AuthoringCellFactory.buildAuthoringGroupCell(act);
+		graph.createGroupForSelectedCells(cell);
+	}
+
+}

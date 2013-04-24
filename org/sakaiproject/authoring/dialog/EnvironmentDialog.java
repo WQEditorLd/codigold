@@ -1,0 +1,173 @@
+package org.sakaiproject.authoring.dialog;
+
+import java.awt.TextField;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.Serializable;
+
+import javax.swing.BorderFactory;
+import javax.swing.JDialog;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.JToolBar;
+
+import org.imsglobal.jaxb.ld.Conference;
+import org.imsglobal.jaxb.ld.Environment;
+import org.imsglobal.jaxb.ld.GameService;
+import org.imsglobal.jaxb.ld.LearningObject;
+import org.imsglobal.jaxb.ld.SendMail;
+import org.imsglobal.jaxb.ld.Service;
+import org.sakaiproject.authoring.Authoring;
+import org.sakaiproject.authoring.list.EnvironmentCellRenderer;
+import org.sakaiproject.authoring.list.ListModel;
+import org.sakaiproject.authoring.listener.AddLearningObjectButtonActionListener;
+import org.sakaiproject.authoring.listener.AddServiceButtonActionListener;
+import org.sakaiproject.authoring.listener.RemoveEnvironmentItemButtonActionListener;
+import org.sakaiproject.authoring.model.EnvironmentsModel;
+import org.sakaiproject.authoring.model.RolesModel;
+import org.sakaiproject.authoring.panel.ObjectDialogButtonBarPanel;
+import org.sakaiproject.authoring.utils.Bundle;
+import org.sakaiproject.authoring.utils.SwingUtil;
+
+import com.jgoodies.forms.builder.PanelBuilder;
+import com.jgoodies.forms.layout.CellConstraints;
+import com.jgoodies.forms.layout.FormLayout;
+
+
+public class EnvironmentDialog extends JDialog implements ObjectDialog<Environment> {
+
+	private static final long serialVersionUID = -6186101235667979250L;
+	
+	private TextField textField = new TextField();
+	
+	private JList itensList;
+	private ListModel itensModel;
+
+	private Environment environment;
+	
+	private RolesModel rolesModel;
+	
+	public EnvironmentDialog(RolesModel rolesModel) {
+		
+		super(Authoring.getInstance(), true);
+		
+		this.rolesModel = rolesModel;
+		
+		itensModel = new ListModel();
+		itensList = new JList(itensModel);
+		itensList.setFixedCellWidth(250);
+		
+		itensList.setCellRenderer(new EnvironmentCellRenderer());
+		itensList.addMouseListener(new MouseAdapter(){
+			 
+			public void mouseClicked(MouseEvent event) {
+				if(event.getClickCount() == 2){
+					editSelectedItem();
+				}
+			}
+		});
+		
+		FormLayout layout = new FormLayout("left:170dlu, 4dlu, p", "p, 2dlu, p, 7dlu, p, 2dlu, p, 7dlu, p");		
+		PanelBuilder builder = new PanelBuilder(layout);
+		builder.setDefaultDialogBorder();
+		
+		CellConstraints cc = new CellConstraints();
+		
+		builder.addSeparator(Bundle.getString("label.name"), cc.xyw(1, 1, 3));
+		builder.add(textField, cc.xyw(1, 3, 3));
+		builder.addSeparator(Bundle.getString("title.objectsandservices"), cc.xyw(1, 5, 3));		
+		builder.add(new JScrollPane(itensList), cc.xy(1, 7));
+		
+		JToolBar toolBar = new JToolBar(JToolBar.VERTICAL);
+		toolBar.setBorder(BorderFactory.createEtchedBorder());
+		toolBar.setFloatable(false);
+		toolBar.add(new AddLearningObjectButtonActionListener(this));
+		toolBar.add(new AddServiceButtonActionListener(this));
+		toolBar.add(new RemoveEnvironmentItemButtonActionListener(this));
+		builder.add(toolBar, cc.xy(3, 7));
+		
+		builder.add(new ObjectDialogButtonBarPanel(this), cc.xyw(1, 9, 3));
+		
+		add(builder.getPanel());
+		
+		setTitle(Bundle.getString("title.environment"));
+		setDefaultCloseOperation(JDialog.HIDE_ON_CLOSE);
+		pack();
+		setLocation(SwingUtil.getCenterPosition(this));
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void editSelectedItem(){
+		
+		ObjectDialog dialog = null;
+		
+		if(itensList.getSelectedValue() instanceof LearningObject){
+			dialog = new LearningObjectDialog(this);	
+		} 
+		if(itensList.getSelectedValue() instanceof SendMail){
+			dialog = new SendMailDialog(this, rolesModel);	
+		} 
+		if(itensList.getSelectedValue() instanceof Conference){
+			dialog = new ConferenceDialog(this, rolesModel);	
+		} 
+		if(itensList.getSelectedValue() instanceof GameService){
+			dialog = new GameServiceDialog(this, rolesModel);	
+		}
+		
+		dialog.setObject(itensList.getSelectedValue());
+		dialog.setVisible(true);
+		itensModel.updateChange(itensList.getSelectedIndex());
+	
+	}
+	
+	
+	public void populateObject() {
+		environment.setTitle(textField.getText());
+		environment.getLearningObjectOrServiceOrEnvironmentRef().clear();
+		for(Object item : itensModel.toArray()){
+			if(item instanceof LearningObject){
+				environment.getLearningObjectOrServiceOrEnvironmentRef().add((Serializable) item);
+			} else {
+				environment.getLearningObjectOrServiceOrEnvironmentRef().add(EnvironmentsModel.getService(item));
+			}
+		}
+	}
+	
+	
+	public void setObject(Environment environment){
+		this.environment = environment;
+		textField.setText(environment.getTitle());
+		itensModel.clear();
+		for(int i =0; i < environment.getLearningObjectOrServiceOrEnvironmentRef().size(); i++){
+			Object itemToAdd = environment.getLearningObjectOrServiceOrEnvironmentRef().get(i);
+			if(itemToAdd instanceof Service){
+				itemToAdd = EnvironmentsModel.getServiceItem((Service)itemToAdd);
+			}
+			itensModel.addElement(itemToAdd);
+			itensModel.updateChange(i);
+		}
+		
+	}
+	
+	public RolesModel getRolesModel(){
+		return rolesModel;
+	}
+	
+
+	public Environment getObject() {
+		return environment;
+	}
+
+	public void setRolesModel(RolesModel rolesModel) {
+		this.rolesModel = rolesModel;
+	}
+
+	public void addEnvironmentItem(Object object) {
+		itensModel.addElement(object);
+	}
+	
+	public void removeSelectedItem() {
+		itensModel.remove(itensList.getSelectedIndex());
+	}
+
+}
